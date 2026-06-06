@@ -1,0 +1,583 @@
+{
+  "events": [
+    {
+      "id": "russia_2025_01_kerch_oil_spill",
+      "type": "anchored",
+      "month": 1,
+      "title_seed": "Kerch Strait Environmental Catastrophe",
+      "fact": "On January 24, 2025, satellite images confirmed a major oil slick spreading across the Kerch Strait after two Russian oil tankers were damaged in a storm on December 15, 2024, leaking up to 5,000 tonnes of heavy fuel oil into the Black Sea.",
+      "touches": [
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Allocate massive federal emergency funds and military resources for the coastal cleanup, or downplay the disaster to protect the oil export image and keep resources focused on the war effort.",
+      "hidden_info": "The true extent of the ecological damage and the long-term impact on the local fishing and tourism industries will remain obscured by state media for months.",
+      "figures": [
+        "premier",
+        "press",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must manage this without diverting critical resources from the front, but we cannot let the south coast become a wasteland.",
+        "press": "The incident is under control, and patriotic volunteers are leading a successful cleanup effort.",
+        "voice": "Our beaches are covered in oil, and we are buying our own protective gear to clean them!",
+        "elites": "Contain the spill narrative—our shipping assets must keep moving regardless."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_02_oil_cleanup_crisis",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "Lingering Black Sea Oil Spill",
+      "fact": "By February 25, 2025, new oil slicks continued to appear along the coastlines of southern Russia and annexed Crimea, with emergency crews having removed 148,000 metric tons of contaminated sand from affected beaches.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "economy"
+      ],
+      "dilemma": "Declare a federal state of emergency to unlock more cleanup funds, risking national alarm, or maintain the current regional response to project competence and stability.",
+      "hidden_info": "The aging tanker fleet's structural vulnerabilities mean another similar spill is statistically probable unless costly regulations are enforced.",
+      "figures": [
+        "premier",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "A federal emergency declaration might signal weakness and panic the southern regions.",
+        "voice": "We are still finding oil washing ashore; the official response is completely inadequate.",
+        "elites": "Redirect cleanup funds through our networks; the coast is a loss anyway."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_03_youth_militarization",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "Year of the Defender of the Fatherland",
+      "fact": "In early 2025, the Kremlin designated the year as the 'Year of the Defender of the Fatherland,' significantly expanding compulsory military-patriotic educational programs and Basic Military Training in schools nationwide.",
+      "touches": [
+        "social_cohesion",
+        "institutional_stability",
+        "security"
+      ],
+      "dilemma": "Push deep ideological militarization into the school system to ensure long-term regime loyalty and recruitment, or moderate the program to avoid alienating parents and exacerbating the demographic crisis.",
+      "hidden_info": "Internal education ministry reports indicate that while overt resistance is rare, passive disengagement and absenteeism in patriotic modules are rising among older teenagers.",
+      "figures": [
+        "security_council",
+        "voice"
+      ],
+      "stakeholder_positions": {
+        "security_council": "We must embed military values into the youth to secure the nation's future against Western aggression!",
+        "voice": "Our children are being turned into soldiers before they even graduate; we want normal education."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_05_legal_despotism",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Erosion of Legal Formalism",
+      "fact": "In May 2025, analysts noted that Putin's erstwhile legalism had given way to despotism, as the regime increasingly used extralegal nationalizations and rapid legislative changes to punish disloyal elites and consolidate power.",
+      "touches": [
+        "institutional_stability",
+        "economy",
+        "approval"
+      ],
+      "dilemma": "Continue dismantling legal formalism to rapidly punish disloyal elites and secure the regime, or preserve some institutional constraints to maintain business confidence and elite predictability.",
+      "hidden_info": "The accelerating property seizures are causing even loyal oligarchs to quietly move capital abroad, fearing they could be the next targets.",
+      "figures": [
+        "security_council",
+        "premier",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "security_council": "The traitors must be stripped of their assets immediately; the law cannot shield enemies of the state!",
+        "premier": "Arbitrary seizures are destroying what is left of investor confidence; we need predictable rules to run the economy.",
+        "elites": "Seizures punish rivals while we keep what's ours—order requires selective justice."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_06_economic_stagnation",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Economic Stagnation and Fiscal Squeeze",
+      "fact": "By mid-2025, Russia's GDP growth fell sharply to 1 percent from 4.9 percent in 2024, as fiscal stimulus faded, tight monetary conditions weighed on consumption, and oil and gas revenues dropped 35% compared to the previous year.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "public_services"
+      ],
+      "dilemma": "Cut social spending and infrastructure investment to manage the widening fiscal deficit, or maintain stimulus through deficit spending and risk accelerating inflation and financial instability.",
+      "hidden_info": "The Central Bank's internal forecasts suggest that without structural reform, the economy will stagnate at 0.7% growth for the foreseeable future, but structural reform requires demilitarizing the economy.",
+      "figures": [
+        "premier",
+        "defense",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must tighten our belts and stabilize the budget before inflation destroys the ruble.",
+        "defense": "The military-industrial complex cannot absorb budget cuts; the war effort requires uninterrupted funding.",
+        "elites": "Stagnation squeezes the budget—we need more state contracts redirected our way."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_07_oil_revenue_crisis",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Falling Oil Revenues Challenge Budget",
+      "fact": "In July 2025, analysis confirmed that low global oil prices—pushing Russian export prices to around $50-55 per barrel—were severely weighing on exports, leaving budgetary challenges to persist as oil and gas revenues remained 35% lower than the previous year.",
+      "touches": [
+        "fiscal_health",
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Accept lower profit margins and sell more volume to CRINK partners like China at a discount, or cut production to support global prices while risking immediate budget shortfalls.",
+      "hidden_info": "The shadow fleet's operational costs and insurance risks are rising, further eroding the net profit margin on every barrel sold.",
+      "figures": [
+        "premier",
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must maximize volume to our Asian partners to keep the budget afloat, even at a discount.",
+        "foreign": "Selling too cheaply to Beijing makes us a vassal state; we must assert better terms.",
+        "elites": "At fifty per barrel, we need higher margins—cut domestic supply first."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_08_alaska_summit",
+      "type": "anchored",
+      "month": 8,
+      "title_seed": "Trump-Putin Alaska Summit",
+      "fact": "On August 15-16, 2025, Vladimir Putin met Donald Trump in Anchorage, Alaska, for a summit that ended with no ceasefire deal; Trump subsequently dropped his demand for an immediate ceasefire and adopted Putin's framework for a broader 'peace agreement' based on territorial concessions.",
+      "touches": [
+        "international_power",
+        "security"
+      ],
+      "dilemma": "Accept the US-brokered peace framework that solidifies current territorial gains but requires freezing the front, or continue the war of attrition to seize more Ukrainian territory while the US offer remains open.",
+      "hidden_info": "Trump's shift toward Putin's position has alienated European allies, but US military aid to Ukraine has not been cut, meaning Ukrainian defensive capabilities remain strong.",
+      "figures": [
+        "foreign_leader",
+        "foreign",
+        "defense",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "Any deal that requires ceding our sovereign territory is a betrayal, no matter what Trump promises!",
+        "foreign": "This is a diplomatic victory; we must lock in the territorial gains before the window closes.",
+        "defense": "The frontlines are stabilizing; we can still push further if we do not accept a premature freeze.",
+        "elites": "No deal means war economy continues—our contracts stay secure."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_09_novorossiysk_spill",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Second Black Sea Oil Spill",
+      "fact": "On September 4, 2025, a ruptured hose at the Caspian Pipeline Consortium terminal near Novorossiysk dumped over 10 tons of petroleum into the Black Sea, killing scores of birds and coating Russian beaches just months after the massive Kerch Strait disaster.",
+      "touches": [
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Shut down the CPC terminal for a comprehensive safety overhaul, causing a massive hit to oil exports and the budget, or conduct minimal repairs and keep the oil flowing while the ecological damage mounts.",
+      "hidden_info": "The CPC terminal is a critical chokepoint for Kazakh oil exports; shutting it down would severely strain relations with Kazakhstan and disrupt a major revenue stream.",
+      "figures": [
+        "premier",
+        "voice",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We cannot afford to halt CPC operations; the budget depends on this flow.",
+        "voice": "They are destroying our coastline for profit; how many more spills will we tolerate?",
+        "press": "The spill was minor and has been completely contained by our efficient emergency services.",
+        "elites": "CPC terminal is strategic infrastructure—protect it, spin the rest."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_10_crink_alignment",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Deepening CRINK Bloc Ties",
+      "fact": "In October 2025, a NATO Parliamentary Assembly report highlighted the growing alignment among China, Russia, Iran, and North Korea (CRINK), noting that their cooperation spans military assistance, hybrid operations, and economic ties, united by a rejection of the Western-led order.",
+      "touches": [
+        "international_power",
+        "security",
+        "economy"
+      ],
+      "dilemma": "Deepen military-technological integration with Iran and North Korea to sustain the war effort, or limit reliance on these volatile partners to avoid triggering harsher secondary sanctions and isolation.",
+      "hidden_info": "Intelligence indicates that sharing advanced military tech with Iran and North Korea increases the risk of reverse-engineering and unauthorized proliferation, compromising Russian military secrets.",
+      "figures": [
+        "defense",
+        "foreign",
+        "security_council",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "defense": "We need Iranian drones and North Korean ammunition now; we cannot fight this war without them.",
+        "foreign": "Embracing the CRINK label too openly alienates our more careful partners in the Global South.",
+        "security_council": "This is an anti-US coalition of necessity; we must bind them to us tightly!",
+        "elites": "China's financing and Iran's drones serve our war—deepen these ties."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_11_ryazan_drone_strike",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Ukrainian Drones Hit Ryazan Refinery",
+      "fact": "On November 20, 2025, Ukrainian drone strikes hit the Ryazan Oil Refinery—one of Russia's largest, processing 5% of the country's crude—causing a major fire, while simultaneous strikes on substations left 16,000 people without power in the Kursk region.",
+      "touches": [
+        "security",
+        "economy",
+        "public_services"
+      ],
+      "dilemma": "Divert significant military resources and reservists to defend internal energy infrastructure, or keep air defenses at the front and accept recurring domestic infrastructure losses.",
+      "hidden_info": "The military admits privately that current air defense systems are ineffective against the latest wave of Ukrainian drones, meaning deployments may only yield marginal protection.",
+      "figures": [
+        "defense",
+        "army_chief",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "defense": "We must mobilize reservists to guard the refineries; the home front cannot burn while we fight abroad.",
+        "army_chief": "Every air defense system sent to protect a refinery is one removed from the front lines, risking our advances.",
+        "voice": "Our cities are under attack and the lights are going out; where is our protection?",
+        "elites": "Five percent of refining gone—military must harden our facilities now."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_12_anniversary_spill",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "One Year Later, Beaches Still Polluted",
+      "fact": "On December 16, 2025, reports marked the one-year anniversary of the Kerch Strait spill, noting that beaches in southern Russia remained polluted with oil-soaked sands, and that over 60,000 volunteers had to buy their own protective gear due to lack of state support.",
+      "touches": [
+        "social_cohesion",
+        "public_services",
+        "approval"
+      ],
+      "dilemma": "Launch a massive, transparent federal cleanup and compensation program to restore the region, or continue suppressing news of the ongoing damage to avoid highlighting a major state failure during wartime.",
+      "hidden_info": "Local health officials are privately reporting a spike in respiratory and dermatological issues among residents and volunteers exposed to the residual fuel oil.",
+      "figures": [
+        "premier",
+        "press",
+        "voice"
+      ],
+      "stakeholder_positions": {
+        "premier": "We cannot allocate massive funds to this while the war demands everything; the regional authorities must handle it.",
+        "press": "The heroic volunteers have successfully restored the beaches, and the situation is resolved.",
+        "voice": "A year later, the sand is still black, and we are sick; the state has abandoned us."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_conditional_demographic_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Worsening Demographic and Health Crisis",
+      "fact": "Throughout 2025, Russia faced a severe demographic crisis exacerbated by the war, with long-term trends showing falling life expectancy and rising mortality, placing immense strain on the healthcare system and labor market.",
+      "touches": [
+        "social_cohesion",
+        "public_services",
+        "economy"
+      ],
+      "dilemma": "Implement costly pro-natalist financial incentives and healthcare investments to reverse the demographic decline, or redirect those limited funds to the war effort and military production.",
+      "hidden_info": "Internal health ministry data shows that excess mortality from preventable causes is rising faster than combat losses, indicating a systemic healthcare collapse.",
+      "figures": [
+        "premier",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must stimulate birth rates, but the treasury is empty; we can only offer token payments.",
+        "voice": "There are no doctors left in our hospitals, and we cannot afford to raise children in these conditions.",
+        "elites": "Fewer workers means cheaper labor control—import from the periphery."
+      },
+      "preconditions": {
+        "public_services": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_conditional_elite_purge",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Elite Property Seizures and Loyalty Erosion",
+      "fact": "Throughout 2025, the regime increasingly used extralegal nationalizations and property seizures to punish disloyal elites, transforming the power vertical and eroding traditional loyalty guarantees.",
+      "touches": [
+        "institutional_stability",
+        "economy",
+        "approval"
+      ],
+      "dilemma": "Halt the arbitrary seizures to restore elite confidence and economic stability, or accelerate the purges to eliminate any potential internal challenge before it materializes.",
+      "hidden_info": "The FSB has flagged that several key oligarchs are secretly coordinating to move their remaining liquid assets to Dubai, fearing the purges will expand.",
+      "figures": [
+        "security_council",
+        "premier",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "security_council": "The rot goes deep; we must seize the assets of anyone who hesitates to show loyalty!",
+        "premier": "If we scare away all the competent managers, the economy will collapse entirely.",
+        "elites": "Purges clear space for loyal men—stay useful and keep your assets."
+      },
+      "preconditions": {
+        "institutional_stability": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_conditional_gasoline_rationing",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Domestic Gasoline Crisis and Rationing",
+      "fact": "As Ukrainian drone strikes knocked out up to 40% of Russia's refining capacity by late 2025, a domestic gasoline crisis spread to major cities, forcing the government to consider coupon rationing and 20-liter caps.",
+      "touches": [
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Impose strict nationwide gasoline rationing to ensure military and emergency services have fuel, or allow market prices to skyrocket, which would crush civilian logistics and trigger public anger.",
+      "hidden_info": "The military has quietly prioritized its own fuel reserves, meaning any rationing system will disproportionately impact civilian and agricultural sectors.",
+      "figures": [
+        "defense",
+        "premier",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "defense": "The army must have priority; civilian discomfort is a small price for victory.",
+        "premier": "Rationing will cause panic and hoarding, but price spikes will destroy our logistics sector.",
+        "voice": "We are waiting in three-kilometer lines for gas while the officials drive around in convoys!",
+        "elites": "Rationing creates black markets we control—our reserves flow through back channels."
+      },
+      "preconditions": {
+        "economy": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_05_istanbul_peace_talks_round_one",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "First Istanbul Peace Talks Stall",
+      "fact": "On May 16, 2025, Russian and Ukrainian delegations met in Istanbul for their first direct peace talks in years, concluding with only an agreement on a major prisoner exchange and the return of thousands of war dead, but no ceasefire.",
+      "touches": [
+        "international_power",
+        "security",
+        "public_services"
+      ],
+      "dilemma": "Accept a limited humanitarian prisoner swap to build diplomatic goodwill, or reject even minor cooperation to maintain maximum pressure and legitimize the talks without conceding a ceasefire.",
+      "hidden_info": "Ukrainian and Western intelligence assessed that Russia used the talks primarily to stall Western weapons deliveries and fracture the coalition, rather than as a genuine peace overture.",
+      "figures": [
+        "foreign",
+        "foreign_leader"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must secure the return of our captured soldiers, even if it means sitting at a table with bad-faith actors.",
+        "foreign_leader": "A prisoner swap is a humanitarian necessity, but we will not accept a fake ceasefire that freezes the conflict on Russia's terms."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_06_istanbul_peace_talks_round_two",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Second Istanbul Talks Yield Maximalist Demands",
+      "fact": "On June 2, 2025, Russia and Ukraine met for a second round of direct talks in Istanbul, lasting just over an hour. Russia presented a memorandum demanding Ukraine withdraw troops from annexed territories and confirm non-nuclear status, resulting in no ceasefire but a 1,200-for-1,200 prisoner swap.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Present maximalist territorial demands to rally domestic hardliners and control the narrative, or offer realistic compromises that risk elite backlash but could genuinely shift the conflict's trajectory.",
+      "hidden_info": "Putin calculated that Trump's political pressure on Ukraine would eventually force Kyiv to accept Russia's terms, making concessions at the table unnecessary.",
+      "figures": [
+        "foreign",
+        "foreign_leader",
+        "defense"
+      ],
+      "stakeholder_positions": {
+        "foreign": "Our memorandum reflects the reality on the ground; recognition of our new regions is non-negotiable.",
+        "foreign_leader": "These demands are an insult and prove Russia is not interested in peace, only in our surrender."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_04_north_korean_troops_acknowledged",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "North Korean Troop Deployment Officially Confirmed",
+      "fact": "On April 28, 2025, North Korea officially confirmed for the first time that it deployed troops to Russia under a mutual defense treaty, claiming they helped recapture Kursk, with Russian officials hailing their 'heroism'.",
+      "touches": [
+        "international_power",
+        "security",
+        "economy"
+      ],
+      "dilemma": "Publicly embrace North Korean troops as heroes to showcase international support and military success, or downplay their role to avoid confirming deep military dependence and triggering further Asian isolation.",
+      "hidden_info": "North Korean units suffered significant casualties in Kursk, and their deployment required substantial Russian logistical and command integration, exposing operational friction.",
+      "figures": [
+        "defense",
+        "army_chief"
+      ],
+      "stakeholder_positions": {
+        "defense": "The alliance with the DPRK demonstrates that Russia is not isolated and has willing partners to share the burden of combat.",
+        "army_chief": "We welcome the manpower, but integrating foreign units with language barriers and different tactics into our front lines is a severe operational headache."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_07_trump_50_day_ultimatum",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Trump's 50-Day Ceasefire Ultimatum",
+      "fact": "In mid-July 2025, US President Donald Trump issued a 50-day ultimatum for Russia to agree to a ceasefire in Ukraine, threatening 'very severe tariffs' and increased weapons supplies to Kyiv via Europe if Moscow failed to comply.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Call Trump's bluff and continue the offensive to secure more territory, risking severe secondary tariffs on Russian energy exports, or agree to a temporary ceasefire to avert economic shock and buy time.",
+      "hidden_info": "Russian economic advisors warned that secondary tariffs on Russian energy buyers in India and China could collapse the parallel oil market, devastating the federal budget far more than current Western sanctions.",
+      "figures": [
+        "foreign_leader",
+        "premier"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "We cannot trust Putin; this deadline is the only way to force his hand to the negotiating table.",
+        "premier": "Our budget can withstand current sanctions, but secondary tariffs targeting our Asian energy lifelines would create a severe fiscal deficit we cannot easily bridge."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_08_putin_rejects_ultimatum",
+      "type": "anchored",
+      "month": 8,
+      "title_seed": "Putin Dismisses Trump's Shortened Deadline",
+      "fact": "On August 1, 2025, Putin publicly dismissed Trump's shortened 10-12 day ceasefire ultimatum, stating 'all disappointments arise from inflated expectations' and asserting Russian troops were advancing on the entire front line.",
+      "touches": [
+        "international_power",
+        "approval",
+        "security"
+      ],
+      "dilemma": "Project strength by publicly rejecting the ultimatum to maintain domestic authority and military momentum, or quietly pursue back-channel diplomacy to avoid triggering the threatened economic sanctions.",
+      "hidden_info": "Despite the public dismissal, the Kremlin immediately instructed back-channel intermediaries in the Gulf to explore what minimal concessions might satisfy the Trump administration without halting the offensive.",
+      "figures": [
+        "security_council",
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "security_council": "We must not show weakness before the West; any retreat under ultimatum will embolden our enemies and our own traitors.",
+        "foreign": "We reject the ultimatum publicly, but we must keep diplomatic channels open to ensure the Americans do not fully commit to the most devastating tariff packages."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_09_power_of_siberia_2_deal",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Power of Siberia 2 Pipeline Memorandum Signed",
+      "fact": "On September 2, 2025, Russia and China signed a legally binding memorandum to build the Power of Siberia 2 gas pipeline via Mongolia, though key details on pricing and financing remained unresolved, with China playing hardball.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Sign the memorandum with unfavorable or absent pricing terms to secure a strategic pivot to Asia and signal resilience, or hold out for better terms and risk the deal collapsing entirely.",
+      "hidden_info": "Gazprom's internal assessments showed China was demanding a price discount approaching 30% compared to European contracts, which would render the project barely profitable but strategically essential.",
+      "figures": [
+        "premier",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must secure this pipeline to replace lost European markets; even unfavorable terms are better than long-term isolation.",
+        "elites": "We cannot let Beijing dictate extraction prices; this pipeline must generate real capital, not just geopolitical optics."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_conditional_trump_tariffs_trigger",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Secondary Tariffs on Russian Energy Enacted",
+      "fact": "Following the expiration of Trump's August ultimatum without a Russian ceasefire, the US imposes secondary tariffs on financial institutions and entities trading Russian oil and LNG, causing a sudden shock to Russian export revenues.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Absorb the massive fiscal hit to maintain the war effort and refuse to yield to coercion, or seek an emergency diplomatic off-ramp to get the tariffs lifted before the budget collapses.",
+      "hidden_info": "The secondary tariffs force major Indian and Chinese banks to temporarily halt Russian oil payments, creating a severe short-term liquidity crisis for the Russian state.",
+      "figures": [
+        "premier",
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must restructure the budget immediately and use the National Wealth Fund to cover the deficit; we cannot retreat under pressure.",
+        "elites": "The financial system is freezing; we need a diplomatic off-ramp before our overseas revenue streams are permanently severed.",
+        "foreign": "We must rally BRICS nations to create alternative payment systems, but this will take time we may not have."
+      },
+      "preconditions": {
+        "international_power": ">60"
+      },
+      "branchable": true
+    },
+    {
+      "id": "russia_2025_conditional_nk_troop_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "North Korean Units Suffer Heavy Losses",
+      "fact": "Following the official acknowledgment of North Korean troops, reports emerge of catastrophic casualties among DPRK units due to poor integration, lack of modern equipment, and Ukrainian drone strikes, creating a diplomatic crisis with Pyongyang.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Divert elite Russian Guard units to rescue and reinforce North Korean positions to preserve the alliance, or let them bear the brunt of the assault to save Russian lives at the risk of alienating a key arms supplier.",
+      "hidden_info": "Kim Jong-un demands modern Russian air defense systems to protect his troops, threatening to halt ammunition shipments if Russian commanders do not prioritize DPRK force preservation.",
+      "figures": [
+        "defense",
+        "army_chief"
+      ],
+      "stakeholder_positions": {
+        "defense": "We must equip the North Koreans better; their artillery supplies are irreplaceable for our current war tempo.",
+        "army_chief": "Our own infantry is stretched thin; we cannot sacrifice Russian operational reserves just to bail out foreign auxiliaries."
+      },
+      "preconditions": {
+        "security": "<40"
+      },
+      "branchable": true
+    }
+  ],
+  "_note": "Russia 2025 deck via Ollama glm-5.1 + web_search. REVIEW before use."
+}

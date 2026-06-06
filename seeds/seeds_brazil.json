@@ -1,0 +1,795 @@
+{
+  "_note": "Brazil 2025 deck (Lula). Curated from deep-research (25 claims verified 3-0) plus dated facts from the same sources (INSS scandal, metanol, Operação Contenção, blackout, dengue, IR exemption). Figure keys match engine/countries.py BRAZIL_ROSTER. The Trump 50% tariff (Jul) is Brazil-specific and tied to the Bolsonaro trial; the universal Liberation Day wave lives in seeds_global.json with a brazil hook.",
+  "events": [
+    {
+      "id": "br_2025_04_inss",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "The INSS pension-fraud scandal breaks",
+      "fact": "In April 2025 'Operação Sem Desconto' (Federal Police/CGU) exposed billions in unauthorized association fees skimmed from retirees' INSS pensions, implicating officials and forcing the INSS chief out and pressure on the Pensions minister.",
+      "touches": [
+        "approval",
+        "institutional_stability",
+        "social_cohesion",
+        "public_services"
+      ],
+      "dilemma": "Clean house fast — fire allies and let the probe run deep — or contain it to protect coalition partners?",
+      "hidden_info": "How high the scheme reaches and how much money can be returned to retirees.",
+      "figures": [
+        "sec_justice",
+        "opposition",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "press": "Splashes the theft from the elderly across every front page.",
+        "opposition": "Brands it the rot of a government that failed to watch the till.",
+        "elites": "Fiscal irresponsibility enables graft; we demand strict spending caps and accountability to restore market confidence."
+      },
+      "branchable": true
+    },
+    {
+      "id": "br_2025_05_china",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Lula in Beijing: R$27bn and a transcontinental railway",
+      "fact": "On Lula's May 2025 visit to China, firms pledged ~R$27bn in investment and dozens of accords were signed; in July Brazil and China would sign an MoU to study a bioceanic railway linking the Atlantic to Peru's Pacific coast.",
+      "touches": [
+        "economy",
+        "international_power",
+        "public_services",
+        "fiscal_health"
+      ],
+      "dilemma": "Deepen the embrace of Chinese capital and infrastructure, or keep distance to avoid provoking Trump's Washington amid the trade war?",
+      "hidden_info": "Whether the US retaliates for the tilt, and if the railway is ever more than a feasibility study.",
+      "figures": [
+        "foreign",
+        "sec_finance",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "China is the market and the capital Brazil needs.",
+        "sec_finance": "Welcome the investment, but mind the geopolitical bill.",
+        "elites": "R$27bn opens doors for agribusiness exports, but the railway must serve commodity logistics, not just ideology."
+      }
+    },
+    {
+      "id": "br_2025_06_iof",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "The IOF standoff with Congress",
+      "fact": "After Congress resisted the decree raising the IOF tax, the government issued a stopgap measure (MP 1.303) to recoup ~R$10bn; Lula accused Speaker Hugo Motta of breaking a deal, called the reversal 'absurd', and the government took the fight to the Supreme Court.",
+      "touches": [
+        "fiscal_health",
+        "economy",
+        "institutional_stability",
+        "approval"
+      ],
+      "dilemma": "Bend to Congress and lose revenue (straining the fiscal framework), or judicialize the fight and deepen the rift with the legislature?",
+      "hidden_info": "Whether the STF upholds the decree and the true size of the budget hole.",
+      "figures": [
+        "sec_finance",
+        "opposition",
+        "supreme_court",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_finance": "Without the revenue, the fiscal target slips away.",
+        "supreme_court": "Will weigh the decree's legality, not the politics.",
+        "elites": "Killing investment with IOF hikes; Congress must hold the line to protect markets and our fiscal rule."
+      }
+    },
+    {
+      "id": "br_2025_07_brics",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Hosting the BRICS summit in Rio",
+      "fact": "Brazil hosted the BRICS summit in Rio (July 2025), pushing a multipolar agenda and reform of global governance — drawing Trump's ire and threats against countries 'aligning with anti-American BRICS'.",
+      "touches": [
+        "international_power",
+        "economy",
+        "approval"
+      ],
+      "dilemma": "Lead a bold multipolar, de-dollarization-tinged agenda, or soften it to avoid handing Washington a pretext for tariffs?",
+      "hidden_info": "How hard Trump will punish BRICS alignment.",
+      "figures": [
+        "foreign",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "Brazil should speak for the Global South.",
+        "press": "Asks if the summit is worth a trade war.",
+        "elites": "Multipolar posturing risks our US markets; pragmatism, not ideology, must guide trade."
+      }
+    },
+    {
+      "id": "br_2025_07_tariff50",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Trump's 50% tariff over the Bolsonaro trial",
+      "fact": "In July 2025 Trump ordered a 50% tariff on Brazilian goods, explicitly tying it to the prosecution of his ally Bolsonaro and Justice Moraes; Brazil answered with a ~R$30bn credit line (MP) for hit exporters in August.",
+      "touches": [
+        "economy",
+        "international_power",
+        "fiscal_health",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Retaliate and stand up to Washington (rally the nation, risk escalation), or negotiate quietly and cushion exporters at home — while you cannot touch the courts?",
+      "hidden_info": "Whether Trump will back down and how much of exports actually get hit.",
+      "figures": [
+        "foreign",
+        "sec_finance",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "Sovereignty isn't negotiable; seek reciprocity.",
+        "opposition": "Blames the trial and your foreign policy for the pain.",
+        "elites": "Political vendettas threaten R$27bn in exports; we need quiet diplomacy, not ideological grandstanding."
+      },
+      "branchable": true
+    },
+    {
+      "id": "br_2025_09_bolsonaro_verdict",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "The Supreme Court convicts Bolsonaro",
+      "fact": "Beginning Sept 2, 2025 the STF tried Bolsonaro and seven allies for the coup plot; he was sentenced to 27 years and 3 months (the broader case closing in December with 29 convictions).",
+      "touches": [
+        "institutional_stability",
+        "social_cohesion",
+        "approval",
+        "international_power"
+      ],
+      "dilemma": "You don't control the courts — but do you champion the institutions (feeding the 'persecution' narrative and Trump's tariff pretext), or stay studiously silent?",
+      "hidden_info": "The size of the sentences, the 2026 electoral fallout, and Washington's reaction.",
+      "figures": [
+        "supreme_court",
+        "opposition",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "supreme_court": "The rule of law must answer an attempted coup.",
+        "opposition": "Cries political persecution and rallies the base.",
+        "elites": "Institutions held firm; now let's stabilize markets and focus on the 2026 economic agenda."
+      },
+      "branchable": true
+    },
+    {
+      "id": "br_2025_10_contencao",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "The deadliest police raid in Rio's history",
+      "fact": "In late Oct 2025 a massive police operation against Comando Vermelho in Rio's Penha/Alemão complexes left over 100 dead — the deadliest in the state's history. Lula called it 'disastrous'; a federalism clash erupted with the governor.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Back hardline state-led force against the gangs, or condemn the carnage and push a federal human-rights line — risking looking soft on crime?",
+      "hidden_info": "The true civilian toll and whether the operation actually weakened the faction.",
+      "figures": [
+        "sec_justice",
+        "defense",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "opposition": "Demands tougher war on the factions, not less.",
+        "sec_justice": "Warns of a massacre and a federalism crisis."
+      }
+    },
+    {
+      "id": "br_2025_10_metanol",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Methanol-poisoning outbreak from tainted drinks",
+      "fact": "A wave of methanol poisonings from adulterated alcoholic drinks spread across states in late 2025, causing deaths and blindness and a public-health scare.",
+      "touches": [
+        "public_services",
+        "approval",
+        "social_cohesion"
+      ],
+      "dilemma": "Mount a loud federal crackdown and health emergency (risk of panic), or manage it quietly to avoid alarming the public and the economy?",
+      "hidden_info": "How wide the contamination runs and whether it's organized crime.",
+      "figures": [
+        "sec_justice",
+        "voice",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "voice": "People are dying from a beer or a drink — do something.",
+        "press": "Tracks every new case and death."
+      }
+    },
+    {
+      "id": "br_2025_11_cop30",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "COP30 in Belém — your climate legacy",
+      "fact": "Brazil hosted COP30 in Belém (Nov 2025), delivering the 'Belém Package' and a Tropical Forests Forever Facility that mobilized US$6.7bn — but the fossil-fuel phase-out roadmap was left out, amid Brazil's own oil-frontier ambitions (Margem Equatorial).",
+      "touches": [
+        "international_power",
+        "approval",
+        "fiscal_health",
+        "social_cohesion"
+      ],
+      "dilemma": "Stake everything on climate leadership (legacy, the forest fund), or protect oil expansion and domestic growth that pay the bills?",
+      "hidden_info": "How much money actually materializes and whether the summit is judged a success.",
+      "figures": [
+        "foreign",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "Belém can crown Brazil as a climate leader.",
+        "voice": "Wants jobs and cheap fuel, not just summits.",
+        "elites": "Climate funds are welcome, but environmental targets must not throttle agribusiness competitiveness."
+      }
+    },
+    {
+      "id": "br_2025_11_ir_exemption",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Income-tax exemption up to R$5,000",
+      "fact": "In Nov 2025 Lula sanctioned the law exempting income tax for those earning up to R$5,000/month — a flagship popular measure heading into 2026.",
+      "touches": [
+        "approval",
+        "fiscal_health",
+        "social_cohesion"
+      ],
+      "dilemma": "Cash in the popularity of a big tax break, or temper it to defend the fiscal framework you've fought Congress to protect?",
+      "hidden_info": "The real revenue cost and whether markets punish the giveaway.",
+      "figures": [
+        "sec_finance",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "voice": "Finally, relief for working families.",
+        "sec_finance": "Every exemption must be paid for somewhere.",
+        "elites": "A populist giveaway breaching the fiscal ceiling; markets will punish this fiscal indiscipline."
+      }
+    },
+    {
+      "id": "br_2025_12_venezuela",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "The Venezuela split at the Mercosur summit",
+      "fact": "At the Dec 2025 Mercosur summit, Brazil refused to sign an Argentina-led (Milei) communiqué pressing Venezuela on democracy, fearing Washington would read it as backing a US military intervention; Lula called intervention a 'humanitarian catastrophe'.",
+      "touches": [
+        "international_power",
+        "institutional_stability",
+        "social_cohesion"
+      ],
+      "dilemma": "Join the regional bloc condemning Maduro (align with Milei and democracy), or refuse to avoid greenlighting a US intervention (sovereignty, non-interventionism)?",
+      "hidden_info": "Whether the US truly intends military action and how Maduro reacts.",
+      "figures": [
+        "foreign",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "A diplomatic path; no foreign troops in the region.",
+        "opposition": "Says you are shielding a dictator.",
+        "elites": "Pragmatism prevails; ideological crusades risk Mercosur trade and our agricultural exports."
+      }
+    },
+    {
+      "id": "br_2025_12_trump_call",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "The 40-minute call with Trump on the tariffs",
+      "fact": "In Dec 2025, after the US removed 238 Brazilian products from the tariff list in November, Lula and Trump held a 40-minute call on lifting the remaining 40% surtax and cooperating on organized crime; Lula pushed to 'move fast' with ~22% of exports still taxed.",
+      "touches": [
+        "international_power",
+        "economy",
+        "approval",
+        "fiscal_health"
+      ],
+      "dilemma": "Trade concessions (crime cooperation, optics with Trump) for tariff relief, or hold firm on sovereignty and accept slower relief?",
+      "hidden_info": "What Trump wants in return and whether the rest of the surtax falls.",
+      "figures": [
+        "foreign",
+        "sec_finance",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "A deal now saves exporters and jobs.",
+        "press": "Watches whether you conceded too much to Trump.",
+        "elites": "Finally, pragmatism over ideology; now secure the remaining tariff lifts for our commodity exports."
+      }
+    },
+    {
+      "id": "br_dengue_surge",
+      "type": "conditional",
+      "title_seed": "A new dengue epidemic strains hospitals",
+      "fact": "Mosquito-borne dengue surges again, overwhelming clinics across several states.",
+      "touches": [
+        "public_services",
+        "approval",
+        "social_cohesion"
+      ],
+      "preconditions": {
+        "public_services": "<48"
+      },
+      "dilemma": "Pour emergency funds and mobilize the SUS (fiscal cost), or rely on states and ride it out?",
+      "hidden_info": "How severe the season gets and the death toll.",
+      "figures": [
+        "voice",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "voice": "The hospitals are full and people are scared."
+      }
+    },
+    {
+      "id": "br_amazon_fires",
+      "type": "conditional",
+      "title_seed": "Fires and drought ravage the Amazon",
+      "fact": "Severe drought and fires hit the Amazon and Pantanal, drawing global scrutiny of Brazil's environmental record.",
+      "touches": [
+        "international_power",
+        "public_services",
+        "social_cohesion"
+      ],
+      "preconditions": {},
+      "dilemma": "Surge enforcement and firefighting (costly, angers agribusiness), or downplay it to protect the rural economy and your base there?",
+      "hidden_info": "How bad the season becomes and how loudly the world reacts before COP30.",
+      "figures": [
+        "foreign",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "The fires undercut our climate diplomacy.",
+        "elites": "Global scrutiny threatens our sovereignty; we must control the narrative before foreign markets restrict us."
+      },
+      "base_weight": 1.1
+    },
+    {
+      "id": "br_blackout",
+      "type": "conditional",
+      "title_seed": "A nationwide blackout hits the grid",
+      "fact": "A major failure cascades across the national power grid, cutting electricity to tens of millions for hours.",
+      "touches": [
+        "public_services",
+        "economy",
+        "approval"
+      ],
+      "preconditions": {
+        "public_services": "<50"
+      },
+      "dilemma": "Own the failure and promise heavy grid investment (fiscal cost), or pin it on operators and move on?",
+      "hidden_info": "The cause and whether it recurs.",
+      "figures": [
+        "voice",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "press": "Demands to know why the lights went out.",
+        "elites": "Infrastructure failure deters investors; privatization and grid modernization are urgent market imperatives."
+      },
+      "base_weight": 0.8
+    },
+    {
+      "id": "brazil_2025_02_drought_emergency",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "Amazon drought enters third year",
+      "fact": "On February 27, 2025, the Ministry of the Environment declared a state of environmental emergency due to the risk of forest fires. Cemaden later confirmed 2025 saw record heat and prolonged drought, affecting over 336,000 people directly, with the Amazon region suffering the most severe impacts.",
+      "touches": [
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Allocate massive federal emergency funds and military resources to the Amazon to prevent humanitarian and ecological collapse, or conserve resources given the fiscal constraints and the likelihood that the drought is a multi-year reality that cannot be solved by emergency response alone.",
+      "hidden_info": "The full extent of the 2025 drought would later make it one of the most devastating on record, but at the time, the rainy season's failure to recover was still uncertain.",
+      "figures": [
+        "sec_finance",
+        "defense",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_finance": "We must balance emergency relief with our fiscal targets; every real spent here is a real not spent elsewhere.",
+        "defense": "The Armed Forces are ready to deploy for logistics and firefighting, but prolonged operations stretch our capacity thin.",
+        "elites": "Emergency funds must not breach the fiscal rule; agribusiness resilience requires budget discipline."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_04_dengue_expansion",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Dengue epidemic expands to 312 municipalities",
+      "fact": "On April 17, 2025, the Ministry of Health expanded priority dengue response actions to 312 municipalities, deploying the SUS National Force to set up hydration centers and reinforce assistance in critical cities like Natal and São José do Rio Preto.",
+      "touches": [
+        "public_services",
+        "fiscal_health"
+      ],
+      "dilemma": "Divert significant federal health resources and personnel to contain the expanding dengue epidemic in specific hotspots, or maintain a broader distribution of resources to avoid neglecting other critical healthcare needs nationwide.",
+      "hidden_info": "The 2024 dengue cases had already seen a 303.2% increase over the previous year, and early 2025 data indicated the virus was spreading to new regions not traditionally affected.",
+      "figures": [
+        "vice_president",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "vice_president": "As a former governor, I know we must empower local municipalities with federal backing, but we cannot let the rest of the country's healthcare system collapse.",
+        "elites": "Health crises disrupt labor and productivity; contain it fast without creating new fiscal liabilities."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_04_mais_medicos",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Mais Médicos deploys 407 new foreign doctors",
+      "fact": "On April 24, 2025, the Mais Médicos program announced that 407 new foreign-trained professionals who completed their assessment modules began working across 180 municipalities and 15 Special Indigenous Health Districts in 22 states.",
+      "touches": [
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Accelerate the integration of foreign-trained doctors to fill critical healthcare gaps in underserved regions, or slow the process to address domestic medical councils' concerns about qualification verification and national job protection.",
+      "hidden_info": "While the doctors had completed their assessment modules, the full extent of their integration and the local infrastructure to support them varied widely across the 180 municipalities.",
+      "figures": [
+        "press"
+      ],
+      "stakeholder_positions": {
+        "press": "The program is a necessary lifeline for remote areas, but questions remain about the long-term sustainability and quality oversight of relying on foreign professionals."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "brazil_2025_05_enem_reform",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "ENEM 2025 application opens amid access inequality",
+      "fact": "On May 23, 2025, INEP published the official notice for the 2025 ENEM exam. While the Lula administration succeeded in reversing the drop in ENEM registrations, access to higher education remained unequal, with only 27.1% of 18-24 year olds in higher education—well below the 33% national target.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "economy"
+      ],
+      "dilemma": "Push for aggressive expansion of federal university seats and student financing to meet the 33% target, or focus on improving the quality of basic education and vocational training given the immediate fiscal constraints.",
+      "hidden_info": "The World Bank's completion report on the Upper Secondary Reform noted that while structural changes were made, the long-term impact on educational inequality was still uncertain.",
+      "figures": [
+        "sec_finance",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_finance": "We can expand access, but only if we find the fiscal space for it without breaking our spending rules; quality must accompany quantity.",
+        "elites": "Education access matters, but fiscal discipline funds real opportunity, not just expanded enrollment."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_05_inss_probe",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Coalition buckles on INSS fraud probe",
+      "fact": "On May 16, 2025, members of President Lula's governing coalition shifted stance and publicly supported a joint congressional inquiry (CPMI) into fraudulent deductions from pensions managed by the National Social Security Institute (INSS), despite the presidential palace's initial resistance.",
+      "touches": [
+        "institutional_stability",
+        "approval",
+        "fiscal_health"
+      ],
+      "dilemma": "Embrace the coalition's shift and support the CPMI to demonstrate transparency and accountability, risking exposure of deep administrative failures, or attempt to steer the investigation to minimize political damage and protect key allies.",
+      "hidden_info": "The full scope of the unauthorized deductions was still being uncovered, and the government feared the probe would extend beyond administrative fraud into broader political patronage networks.",
+      "figures": [
+        "sec_justice",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_justice": "We must allow the investigation to proceed unimpeded to restore faith in our institutions, even if it is politically painful.",
+        "opposition": "This is a systemic failure of the government to protect the most vulnerable; only a full CPMI will uncover the truth.",
+        "elites": "A CPMI is essential to restore trust, but it must not derail the fiscal adjustment agenda."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_01_trump_diplomacy",
+      "type": "anchored",
+      "month": 1,
+      "title_seed": "Trump return challenges Lula's global agenda",
+      "fact": "In January 2025, Donald Trump's first week back in the White House signaled major challenges for Lula's foreign policy, directly opposing key Brazilian priorities like social media regulation, taxing the ultra-wealthy, and de-dollarizing trade.",
+      "touches": [
+        "international_power",
+        "economy",
+        "social_cohesion"
+      ],
+      "dilemma": "Confront the new U.S. administration publicly to defend Brazil's multi-aligned global stance and sovereignty, or soften the rhetoric to avoid triggering economic retaliation and protect bilateral trade relations.",
+      "hidden_info": "Trump's team was privately evaluating which countries to target with tariffs and diplomatic pressure, making any public confrontation highly risky for Brazil's export sector.",
+      "figures": [
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must maintain our strategic autonomy and continue to build South-South cooperation, but we cannot afford to needlessly provoke our second-largest trade partner.",
+        "elites": "Trump's return demands realpolitik; ideology must not jeopardize our agricultural export markets."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_05_lula_xi_cooperation",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Lula and Xi condemn trade wars in Beijing",
+      "fact": "On May 13, 2025, during an official visit to China, President Lula stood alongside President Xi Jinping to condemn trade wars and tariff barriers, stating the Brazil-China relationship 'has never been more necessary' in a veiled rebuke of U.S. protectionism.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Deepen strategic and economic alignment with China as a counterweight to U.S. protectionism, or maintain a more cautious distance to avoid being perceived as a Chinese proxy and risking Western investment.",
+      "hidden_info": "While the public statements emphasized cooperation, Brazilian officials were privately concerned about over-reliance on Chinese demand for commodities and the geopolitical optics of the partnership.",
+      "figures": [
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "This is not about choosing sides; it is about defending a multipolar world where Brazil has the right to trade with everyone.",
+        "elites": "Condemn tariffs all you want, but our soy and beef need both Washington and Beijing."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "brazil_2025_conditional_iran_oil_shock",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Iran war shocks fuel and fertilizer prices",
+      "fact": "Following the U.S. airstrike on Iran and the subsequent closure of the Strait of Hormuz, global oil prices surged, directly impacting Brazil's diesel costs and cutting fertilizer supplies at the peak of the harvest season.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "security"
+      ],
+      "dilemma": "Subsidize diesel and fertilizers to protect agribusiness margins and prevent food inflation, or allow market forces to adjust to avoid blowing a hole in the fiscal budget and contradicting Petrobras' market pricing policy.",
+      "hidden_info": "Analysts projected Brazilian fertilizer demand could fall by nearly 2 million tonnes, but the full extent of the supply chain disruption from the Hormuz blockade was still unfolding.",
+      "figures": [
+        "sec_finance",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_finance": "We cannot sacrifice our fiscal framework for temporary subsidies; we must find targeted, temporary relief without breaking the rules.",
+        "elites": "Diesel spikes squeeze agribusiness margins; secure fertilizer supply and shield our markets immediately."
+      },
+      "preconditions": {
+        "international_power": "<50"
+      },
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_07_brics_dedollarization",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "De-dollarization Declaration at BRICS Summit",
+      "fact": "On July 7, 2025, closing the XVII BRICS Summit in Rio de Janeiro, President Lula declared that the de-dollarization of international trade is 'irreversible,' emphasizing a gradual path to a new global monetary standard. The summit reinforced Global South cooperation, directly challenging U.S. dollar hegemony.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Champion a bold de-dollarization framework to assert Global South leadership and reduce U.S. leverage, risking severe economic retaliation from Washington, or soften the currency rhetoric to protect Brazilian export access.",
+      "hidden_info": "Trump was already drafting a 10% tariff threat on BRICS nations specifically over this issue, which he would announce the same day.",
+      "figures": [
+        "foreign",
+        "sec_finance"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must build alternative payment mechanisms to avoid subordination to the dollar.",
+        "sec_finance": "A gradual approach protects our reserves and trade balances from sudden shocks.",
+        "elites": "Do not provoke Washington—our agribusiness exports depend on the U.S. market."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_07_trump_brics_tariff_threat",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Trump's 10% BRICS Tariff Ultimatum",
+      "fact": "On July 6, 2025, U.S. President Donald Trump posted that any country aligning with the 'anti-American policies' of BRICS would be charged an additional 10% tariff, reiterating the threat on July 8 that the bloc was set up to 'degenerate' the dollar.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Respond defiantly to protect Brazil's sovereignty and BRICS cohesion, or make immediate diplomatic concessions to Washington to avert the tariff hit on Brazilian exporters.",
+      "hidden_info": "This initial 10% threat was a precursor to a massive 50% tariff that would come later in the month over the Bolsonaro trial.",
+      "figures": [
+        "foreign",
+        "sec_finance"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We cannot accept imperial threats; we must coordinate a unified BRICS response.",
+        "opposition": "Lula's anti-American rhetoric is destroying our trade relations.",
+        "elites": "We need a quiet diplomatic off-ramp, not a public war with Trump."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_07_trump_brazil_sanctions",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "U.S. Sanctions Judge Moraes Over Bolsonaro Trial",
+      "fact": "On July 30, 2025, Trump signed an Executive Order declaring a national emergency regarding Brazil, imposing a 50% total tariff on Brazilian goods and personally sanctioning Supreme Court Justice Alexandre de Moraes for overseeing the Bolsonaro trial.",
+      "touches": [
+        "international_power",
+        "institutional_stability",
+        "economy"
+      ],
+      "dilemma": "Retaliate against U.S. sanctions to defend national sovereignty and judicial independence, or quietly seek a deal to ease the devastating 50% tariff crushing Brazilian exports.",
+      "hidden_info": "The U.S. order used IEEPA to freeze any U.S.-based assets of Justice Moraes, creating unprecedented jurisdictional friction.",
+      "figures": [
+        "foreign",
+        "supreme_court",
+        "sec_finance"
+      ],
+      "stakeholder_positions": {
+        "supreme_court": "The judiciary is independent and will not be bullied by foreign executive orders.",
+        "foreign": "This is an unacceptable violation of our sovereignty; we must respond firmly.",
+        "opposition": "The Supreme Court went too far and provoked this crisis; we must repair ties with the U.S."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_11_celac_eu_venezuela",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Condemning U.S. Military Action at CELAC-EU Summit",
+      "fact": "On November 9, 2025, speaking at the CELAC-EU summit, President Lula condemned 'illegal interventions' and U.S. military presence in the Caribbean and off the coast of Venezuela, without directly naming Donald Trump.",
+      "touches": [
+        "international_power",
+        "security"
+      ],
+      "dilemma": "Use the multinational summit to forcefully denounce U.S. military escalation in the region, risking further diplomatic retaliation, or moderate the tone to preserve fragile EU trade negotiations.",
+      "hidden_info": "Lula was simultaneously offering to mediate between Trump and Maduro behind the scenes, a move many diplomats doubted would succeed.",
+      "figures": [
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must defend international law and regional autonomy from outside military power.",
+        "opposition": "Lula is siding with a dictator instead of protecting our trade with the U.S.",
+        "elites": "Do not risk the EU-Mercosur deal by antagonizing the Americans over Venezuela."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_10_maduro_essequibo_mediation",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Mediating the Venezuela-Guyana Essequibo Dispute",
+      "fact": "In October 2025, President Lula positioned himself as a mediator between Venezuela's Nicolás Maduro and the international community, urging Maduro to avoid 'unilateral measures' regarding the disputed Essequibo region, while offering Brazil's diplomatic channels.",
+      "touches": [
+        "international_power",
+        "security"
+      ],
+      "dilemma": "Offer robust mediation to prevent war on Brazil's northern border and assert regional leadership, or distance Brazil from Maduro to avoid being seen as legitimizing an authoritarian regime.",
+      "hidden_info": "Diplomats privately doubted Brazil had enough leverage over either Caracas or Washington to make mediation work.",
+      "figures": [
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "foreign": "Latin America must be a zone of peace; we are the natural mediators.",
+        "opposition": "Maduro is a dictator; negotiating with him undermines our democratic credentials.",
+        "defense": "If conflict erupts in Essequibo, our northern military commands will be overwhelmed."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_11_belem_climate_summit",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Opening the Belém Climate Summit",
+      "fact": "On November 6, 2025, President Lula opened the Belém Climate Summit with 153 delegations, declaring that 'climate change is no longer a threat of the future. It is a tragedy of the present,' and calling for urgent implementation of the Paris Agreement and climate financing for developing nations.",
+      "touches": [
+        "international_power",
+        "economy",
+        "public_services"
+      ],
+      "dilemma": "Push wealthy nations for massive, mandatory climate finance to the Global South, risking a collapse of COP30 negotiations, or accept a weaker, voluntary framework to secure a diplomatic win.",
+      "hidden_info": "Brazil's own environmental agencies were struggling with underfunding even as the country hosted the summit.",
+      "figures": [
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We need trillions in real financing, not empty promises from the Global North.",
+        "elites": "Do not agree to deforestation targets that restrict agribusiness expansion.",
+        "voice": "The Amazon is burning while politicians give speeches."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_12_eu_mercosur_ultimatum",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "EU-Mercosur Deal 'Now or Never' Ultimatum",
+      "fact": "On December 17, 2025, facing French and Italian opposition, President Lula declared the EU-Mercosur trade deal must be signed immediately or Brazil would walk away, calling it a 'now or never' moment. The signing was ultimately postponed to January after European leaders requested more time.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Issue an ultimatum to force the EU's hand and assert Brazil's negotiating strength, or quietly negotiate compromises to secure the world's largest free-trade zone without risking a total collapse.",
+      "hidden_info": "France and Italy were demanding environmental and agricultural safeguards that Brazilian agribusiness considered deal-breakers.",
+      "figures": [
+        "foreign",
+        "sec_finance"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We cannot accept neo-colonial environmental clauses; the deal must respect our sovereignty.",
+        "sec_finance": "This deal is essential for our industrial exports; we cannot let it die.",
+        "elites": "We need this market access, but not at the cost of our agricultural competitiveness."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_conditional_trump_retaliation",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Coordinating BRICS Response to U.S. Tariffs",
+      "fact": "Following Trump's 50% tariffs and sanctions on Brazil, Lula faces the choice of whether to coordinate a unified BRICS economic retaliation or seek bilateral appeasement with Washington.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Lead a coordinated BRICS retaliatory bloc to demonstrate Global South power but risk a full-scale trade war, or break with the bloc to negotiate a bilateral concession with the U.S.",
+      "hidden_info": "Several BRICS members were privately seeking bilateral exemptions from Washington, undermining bloc unity.",
+      "figures": [
+        "foreign",
+        "sec_finance"
+      ],
+      "stakeholder_positions": {
+        "foreign": "If we do not stand together now, BRICS is meaningless.",
+        "sec_finance": "A trade war with the U.S. will collapse our currency and export sector.",
+        "opposition": "Abandon the anti-American posture and save the economy."
+      },
+      "preconditions": {
+        "economy": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "brazil_2025_conditional_venezuela_refugee_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Venezuelan Refugee Surge at the Northern Border",
+      "fact": "As U.S. military pressure on Venezuela escalates, a surge of refugees attempts to cross into Brazil's Roraima state, overwhelming local infrastructure and forcing a federal response.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "international_power",
+        "public_services"
+      ],
+      "dilemma": "Open the border and provide humanitarian asylum, straining Roraima's resources and angering domestic opponents, or militarize the border to stem the flow, abandoning international refugee norms.",
+      "hidden_info": "U.S. intelligence was actively disrupting Venezuelan logistics, worsening the exodus.",
+      "figures": [
+        "foreign",
+        "defense"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must uphold our humanitarian commitments and regional solidarity.",
+        "defense": "We cannot secure the border and process thousands of refugees simultaneously without reinforcements.",
+        "voice": "We need help in Roraima; we cannot absorb this alone."
+      },
+      "preconditions": {
+        "security": "<40"
+      },
+      "branchable": true
+    }
+  ]
+}

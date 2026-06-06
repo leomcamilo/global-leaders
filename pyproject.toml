@@ -1,0 +1,18 @@
+[project]
+name = "global-leaders"
+version = "0.1.0"
+description = "Global Leaders — assume a real world leader in 2025 and survive the year (HF Build Small Hackathon 2026)"
+requires-python = ">=3.10"
+# Headless engine prototype is stdlib-only. UI/model deps added later:
+#   gradio, transformers/llama-cpp-python, etc.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["engine"]

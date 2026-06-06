@@ -1,0 +1,19 @@
+# secrets — never commit
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# os / editor / tooling
+.DS_Store
+.claude/settings.local.json
+
+# research scratch
+*.draft.json
+seeds/*.draft.json

@@ -1,0 +1,295 @@
+{
+  "_note": "Shared 2025 facts (verified 3-0). One fact, multiple per-country hooks. Countries without a hook but listed in world_modifier.deltas feel a background effect (COUNTRY_SCENARIOS.md §2.4). Figure keys match each country's roster.",
+  "globals": [
+    {
+      "id": "g_ai_deepseek",
+      "month": 1,
+      "title": "DeepSeek shock: China's cheap frontier AI",
+      "fact": "In late January 2025 China's DeepSeek released a frontier-level AI model trained at a fraction of US costs, triggering a record ~$1 trillion rout in US tech stocks (Nvidia alone shed ~$600bn in a day) and upending the AI race.",
+      "hooks": {
+        "usa": {
+          "title": "DeepSeek wipes $1T off US tech",
+          "touches": [
+            "economy",
+            "international_power",
+            "institutional_stability"
+          ],
+          "dilemma": "Double down on US AI dominance (Stargate, deregulation, please Big Tech) or clamp down with harsher chip-export controls to choke China's rise?",
+          "hidden_info": "Whether DeepSeek's cheap-training claims hold, and how fast markets recover.",
+          "figures": [
+            "elites",
+            "sec_treasury"
+          ],
+          "stakeholder_positions": {
+            "elites": "The panic is overblown — back our labs with capital and looser rules, not export bans that gut our chip sales.",
+            "sec_treasury": "A trillion-dollar rout rattles confidence; steady the markets first."
+          }
+        },
+        "china": {
+          "title": "DeepSeek humbles Silicon Valley",
+          "touches": [
+            "international_power",
+            "economy",
+            "party_loyalty"
+          ],
+          "dilemma": "Trumpet the breakthrough as proof of self-reliance (national pride, invites tougher US sanctions) or play it down to avoid provoking Washington?",
+          "hidden_info": "How hard the US will retaliate on advanced chips.",
+          "figures": [
+            "econ_czar",
+            "elites"
+          ],
+          "stakeholder_positions": {
+            "econ_czar": "Proof the self-reliance strategy works — now fund the entire stack.",
+            "elites": "Quiet wins are safer; loud ones bring sanctions down on our chips."
+          }
+        }
+      },
+      "world_modifier": {
+        "id": "ai_tech_selloff",
+        "label": "Global tech-stock selloff",
+        "months": 1,
+        "deltas": {
+          "france": {
+            "economy": -1
+          },
+          "brazil": {
+            "economy": -1
+          }
+        }
+      }
+    },
+    {
+      "id": "g_zelensky_meeting",
+      "month": 2,
+      "title": "The Oval Office blow-up with Zelensky",
+      "fact": "On Feb 28, 2025 the White House meeting with Ukraine's Zelensky collapsed into a public confrontation; he left without signing the planned minerals deal, reshaping the Russia–Ukraine diplomacy.",
+      "hooks": {
+        "usa": {
+          "title": "Showdown with Zelensky in the Oval Office",
+          "touches": [
+            "international_power",
+            "social_cohesion",
+            "approval",
+            "security"
+          ],
+          "dilemma": "Strong-arm Ukraine toward a deal (and minerals), or stand by an ally and keep pressure on Moscow?",
+          "hidden_info": "Whether Putin will actually deal, and how Europe reacts.",
+          "figures": [
+            "vice_president",
+            "sec_state"
+          ],
+          "stakeholder_positions": {
+            "vice_president": "Berates Zelensky for ingratitude.",
+            "sec_state": "Wants leverage without losing the alliance."
+          }
+        },
+        "russia": {
+          "title": "The West cracks over Ukraine",
+          "touches": [
+            "international_power",
+            "approval"
+          ],
+          "dilemma": "Exploit the US–Ukraine rift for gains, or play it cautious to avoid overreach?",
+          "figures": [
+            "foreign",
+            "foreign_leader"
+          ],
+          "stakeholder_positions": {
+            "foreign": "A historic opening to split the West."
+          }
+        },
+        "france": {
+          "title": "Europe scrambles to backstop Kyiv",
+          "touches": [
+            "international_power",
+            "security",
+            "social_cohesion"
+          ],
+          "dilemma": "Lead a European security guarantee for Ukraine, or defer to Washington?",
+          "figures": [
+            "eu",
+            "foreign_leader"
+          ],
+          "stakeholder_positions": {
+            "eu": "Calls for European strategic autonomy."
+          }
+        }
+      },
+      "world_modifier": {
+        "id": "ukraine_diplomacy_shock",
+        "label": "Grain & energy jitters from the Ukraine rift",
+        "months": 1,
+        "deltas": {
+          "brazil": {
+            "economy": 1,
+            "approval": -1
+          },
+          "china": {
+            "international_power": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "g_liberation_day",
+      "month": 4,
+      "title": "'Liberation Day' tariffs upend world trade",
+      "fact": "On April 2, 2025 the US imposed a 10% universal tariff plus steep 'reciprocal' tariffs; markets crashed, a 90-day pause followed for most (April 9), but China was escalated to an effective 145% before a May truce to 30%.",
+      "hooks": {
+        "usa": {
+          "title": "'Liberation Day': you blow up world trade",
+          "touches": [
+            "economy",
+            "fiscal_health",
+            "international_power",
+            "approval",
+            "institutional_stability"
+          ],
+          "dilemma": "Impose sweeping tariffs as leverage and a pro-base flex, or hold back to avoid a market crash, inflation and retaliation?",
+          "hidden_info": "How hard markets fall, who retaliates, and whether the courts let it stand.",
+          "figures": [
+            "sec_treasury",
+            "vice_president"
+          ],
+          "stakeholder_positions": {
+            "sec_treasury": "Ready to negotiate from strength, but warns of market panic.",
+            "vice_president": "Sell it as economic nationalism."
+          }
+        },
+        "china": {
+          "title": "America hits you with 145% tariffs",
+          "touches": [
+            "economy",
+            "international_power",
+            "social_cohesion"
+          ],
+          "dilemma": "Retaliate hard to look strong, or negotiate a truce to protect growth?",
+          "figures": [
+            "econ_czar",
+            "foreign"
+          ],
+          "stakeholder_positions": {
+            "econ_czar": "Match them tariff for tariff.",
+            "foreign": "A truce buys time to build self-reliance."
+          }
+        },
+        "france": {
+          "title": "Washington slaps 20% on EU exports",
+          "touches": [
+            "economy",
+            "international_power"
+          ],
+          "dilemma": "Back EU-wide retaliation, or seek a national exemption?",
+          "figures": [
+            "eu",
+            "sec_economy"
+          ],
+          "stakeholder_positions": {
+            "eu": "Coordinate a firm European response."
+          }
+        },
+        "brazil": {
+          "title": "Caught in the US tariff wave",
+          "touches": [
+            "economy",
+            "international_power"
+          ],
+          "dilemma": "Lead a BRICS-style pushback, or quietly court Washington for relief?",
+          "figures": [
+            "foreign",
+            "sec_finance"
+          ],
+          "stakeholder_positions": {
+            "foreign": "Use BRICS to dilute US pressure."
+          }
+        }
+      },
+      "world_modifier": {
+        "id": "trade_war_slowdown",
+        "label": "Global trade slowdown",
+        "months": 2,
+        "deltas": {
+          "russia": {
+            "economy": -2,
+            "fiscal_health": -1
+          }
+        }
+      }
+    },
+    {
+      "id": "g_iran_war",
+      "month": 6,
+      "title": "The Twelve-Day War: strikes on Iran's nuclear sites",
+      "fact": "On June 21-22, 2025 the US struck three Iranian nuclear sites (Fordow, Natanz, Isfahan); a ceasefire was announced June 24. Oil prices spiked and the Strait of Hormuz risk loomed.",
+      "hooks": {
+        "usa": {
+          "title": "Strike Iran's nuclear sites alongside Israel?",
+          "touches": [
+            "security",
+            "international_power",
+            "approval",
+            "social_cohesion",
+            "economy"
+          ],
+          "dilemma": "Join the war to destroy Iran's nuclear program, or hold back to avoid escalation, an oil shock and a revolt of your 'America First' base?",
+          "hidden_info": "The true damage to the sites and how Iran retaliates.",
+          "figures": [
+            "sec_defense",
+            "vice_president"
+          ],
+          "stakeholder_positions": {
+            "sec_defense": "We can obliterate the program now.",
+            "vice_president": "The anti-war base will feel betrayed."
+          }
+        },
+        "russia": {
+          "title": "Your ally Iran is under US bombs",
+          "touches": [
+            "international_power",
+            "security",
+            "economy"
+          ],
+          "dilemma": "Stand by Tehran and confront Washington, or stay out and reap higher oil prices?",
+          "figures": [
+            "foreign",
+            "security_council"
+          ],
+          "stakeholder_positions": {
+            "security_council": "Abandoning Iran signals weakness.",
+            "foreign": "Higher oil funds the war chest."
+          }
+        },
+        "china": {
+          "title": "Oil supply and Hormuz at risk",
+          "touches": [
+            "economy",
+            "international_power"
+          ],
+          "dilemma": "Loudly condemn and secure oil flows, or quietly mediate to protect supply?",
+          "figures": [
+            "foreign",
+            "econ_czar"
+          ],
+          "stakeholder_positions": {
+            "econ_czar": "A Hormuz disruption would hammer our economy."
+          }
+        }
+      },
+      "world_modifier": {
+        "id": "oil_shock",
+        "label": "Oil price shock from the Iran war",
+        "months": 2,
+        "deltas": {
+          "brazil": {
+            "economy": 3,
+            "approval": -2
+          },
+          "france": {
+            "economy": -2,
+            "fiscal_health": -2
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "events": [
+    {
+      "id": "china_2025_01_tibet_earthquake",
+      "type": "anchored",
+      "month": 1,
+      "title_seed": "Dingri Earthquake Strikes Tibet",
+      "fact": "On January 7, a 6.8-magnitude earthquake struck Dingri County in Shigatse, Tibet, killing 126 people, affecting 216,000, and causing 89.45 billion yuan in direct economic losses.",
+      "touches": [
+        "security",
+        "economy",
+        "social_cohesion",
+        "public_services"
+      ],
+      "dilemma": "Allocate massive immediate fiscal resources for disaster relief and reconstruction in a remote, strategically sensitive border region, or conserve funds amid a broader economic slowdown and local government debt crisis.",
+      "hidden_info": "The full extent of infrastructure damage to military installations in the border region and the total long-term reconstruction costs were not immediately clear.",
+      "figures": [
+        "premier",
+        "security",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must fund rapid reconstruction to maintain stability, but local coffers are bare.",
+        "security": "Border stability is paramount; we must spare no expense to secure the region.",
+        "elites": "Reconstruction contracts offer margins; we'll donate publicly, profit privately."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_02_sichuan_landslide",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "Junlian Landslide Disaster",
+      "fact": "On February 8, a severe mountain landslide struck Jinping Village, Mu'ai Town, Junlian County, Sichuan Province, leaving 29 dead or missing and nearly 1,000 affected.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "public_services"
+      ],
+      "dilemma": "Launch an expensive, large-scale geological hazard prevention and relocation program for mountainous regions, or rely on localized emergency response to manage fiscal strain.",
+      "hidden_info": "Whether this landslide was triggered by natural rainfall or exacerbated by local mining/infrastructure projects was initially disputed.",
+      "figures": [
+        "premier"
+      ],
+      "stakeholder_positions": {
+        "premier": "We cannot afford to relocate every at-risk mountain village, but doing nothing risks public outrage.",
+        "voice": "Our rural communities are being left behind while urban areas get all the investment."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "china_2025_03_pla_budget",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "The PLA presses for a record modernization budget",
+      "fact": "In early 2025 the PLA high command lobbied hard for a larger defense budget to accelerate modernization amid Taiwan and US-China tensions.",
+      "touches": [
+        "fiscal_health",
+        "international_power"
+      ],
+      "faction_touches": [
+        "pla_loyalty"
+      ],
+      "military": true,
+      "dilemma": "Fund the generals lavishly (buys loyalty, strains the budget) or hold the line (saves money, risks resentment in the ranks)?",
+      "hidden_info": "Whether generous funding cements loyalty or merely emboldens an autonomous clique.",
+      "figures": [
+        "military_chief",
+        "premier",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "military_chief": "A strong army needs resources to be trusted.",
+        "premier": "The budget is already stretched thin.",
+        "elites": "More military spending crowds out private capital; we need market stimulus instead."
+      },
+      "branchable": true
+    },
+    {
+      "id": "china_2025_04_graduate_employment",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Record Graduate Class Enters Market",
+      "fact": "On April 17, the Ministry of Human Resources and other departments issued an urgent joint notice to expand employment channels for the 2025 record-sized college graduate class, as youth unemployment remained stubbornly high amid economic uncertainty.",
+      "touches": [
+        "economy",
+        "social_cohesion",
+        "public_services"
+      ],
+      "dilemma": "Force state-owned enterprises to absorb more graduates to guarantee social stability, or allow market forces to dictate hiring to maintain SOE profitability and efficiency.",
+      "hidden_info": "The true youth unemployment rate was likely higher than official figures, and the long-term return on investment for forced SOE hiring was uncertain.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must ensure these graduates have jobs, or face social unrest.",
+        "econ_czar": "Forcing SOEs to over-hire undermines our profitability and reform goals.",
+        "voice": "Our degrees are losing value, and the job market offers no stability.",
+        "elites": "Cheaper labor pools help, but tax breaks for private hiring would help more."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_05_us_trade_truce",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Geneva Trade War Truce",
+      "fact": "In May, following talks in Geneva, the US and China agreed to slash tariffs significantly—the US lowering tariffs from 145% to 30%, and China dropping retaliatory tariffs from 125% to 10%—temporarily easing the trade war.",
+      "touches": [
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Accept a fragile one-year truce that eases immediate economic pressure but requires structural concessions, or maintain a defiant stance to protect long-term industrial policy at the risk of renewed tariffs.",
+      "hidden_info": "The US domestic political situation meant the truce could collapse at any moment, and the true commitment of the US President to the deal was uncertain.",
+      "figures": [
+        "foreign",
+        "foreign_leader",
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "We must stabilize ties, but we cannot concede our core technological development rights.",
+        "foreign_leader": "China needs to buy more American goods, or these tariffs come back.",
+        "econ_czar": "The tariff reduction gives our exporters breathing room, but we must prepare for the truce to fail.",
+        "elites": "Finally—tariff relief protects our export margins and stabilizes supply chains."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_06_tiananmen_ai_censorship",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "AI Censorship of Tiananmen Anniversary",
+      "fact": "On the 36th anniversary of the Tiananmen Square events in June, leaked files revealed that Beijing deployed advanced AI to erase the history of the massacre, flagging even abstract sequences like 'one banana and four apples' to scrub references.",
+      "touches": [
+        "social_cohesion",
+        "institutional_stability",
+        "party_loyalty"
+      ],
+      "dilemma": "Escalate AI censorship to maintain historical narrative control and regime security, or risk international backlash and domestic resentment over extreme digital surveillance.",
+      "hidden_info": "The extent to which the AI over-censorship was alienating the urban middle class and driving the use of VPNs was difficult to measure.",
+      "figures": [
+        "security",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "security": "We must deploy every tool available to prevent ideological infiltration.",
+        "press": "The AI ensures a clean information environment, safeguarding social stability.",
+        "voice": "The censorship is suffocating; we can't even share harmless images without fear."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "china_2025_06_hunan_flooding",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Severe Hunan and Guizhou Flooding",
+      "fact": "In mid-to-late June, continuous heavy rainfall caused severe flooding and geological disasters in Hunan and Guizhou, affecting over 1.4 million people in Hunan and 1.4 million in Guizhou, with direct economic losses of 71.3 billion yuan in Hunan alone.",
+      "touches": [
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Divert significant central funds for immediate disaster relief and infrastructure hardening, or force indebted local governments to shoulder the burden to maintain national fiscal targets.",
+      "hidden_info": "The true state of local government debt meant many affected municipalities were functionally insolvent even before the floods hit.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "The central government must step in, but we are constrained by local debt risks.",
+        "econ_czar": "Local governments must bear some responsibility; we cannot bail them out endlessly.",
+        "elites": "Infrastructure rebuilds mean contracts; we need fair bidding access."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_07_north_flood_crisis",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "North China Devastating Floods",
+      "fact": "In late July, extreme rainfall hit North China, Inner Mongolia, and the Northeast during an extended rainy season (59 days vs. a normal 30), causing 247 deaths/missing and 81.4 billion yuan in losses in those regions alone.",
+      "touches": [
+        "economy",
+        "security",
+        "public_services",
+        "fiscal_health"
+      ],
+      "dilemma": "Implement massive, permanent water conservancy projects in the north requiring huge long-term debt, or continue with emergency responses that are increasingly inadequate against climate extremes.",
+      "hidden_info": "Climate models indicated that northern China's rainfall patterns were permanently shifting, making historical infrastructure standards obsolete.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must build resilient infrastructure, but the fiscal cost is immense.",
+        "econ_czar": "We need to balance disaster spending with our overall economic growth targets.",
+        "elites": "Disaster relief must flow through private logistics, not just state channels."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_07_taiwan",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "A tense standoff in the Taiwan Strait",
+      "fact": "A naval incident near Taiwan in mid-2025 forced a decision on how hard to push, testing the chain of command.",
+      "touches": [
+        "international_power",
+        "security",
+        "approval"
+      ],
+      "faction_touches": [
+        "pla_loyalty"
+      ],
+      "military": true,
+      "dilemma": "Escalate to project strength (and lean on the generals), or de-escalate to avoid a war you may not fully control?",
+      "hidden_info": "How loyal the commanders executing your orders truly are.",
+      "figures": [
+        "military_chief",
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "military_chief": "Show resolve; the army is ready.",
+        "foreign": "An incident could spiral into something far bigger.",
+        "elites": "Escalation risks our trade routes; we need calm, not confrontation."
+      }
+    },
+    {
+      "id": "china_2025_08_deflation_struggle",
+      "type": "anchored",
+      "month": 8,
+      "title_seed": "Deflationary Spiral Deepens",
+      "fact": "By August, China struggled to end a deflationary spiral, with policymakers unable to use the massive 2015 housing stimulus playbook due to the ongoing real estate slump, relying instead on 'anti-involution' campaigns that risked hurting growth.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "social_cohesion"
+      ],
+      "dilemma": "Launch a massive 'whatever it takes' stimulus to break deflation but risk reigniting the property bubble and ballooning debt, or pursue structural reforms that suppress overcapacity but risk deeper economic stagnation.",
+      "hidden_info": "The true scale of hidden local government financing vehicle (LGFV) debt was unknown, making the risk of a massive stimulus potentially catastrophic.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We cannot repeat the 2015 property bubble, but we must boost demand.",
+        "econ_czar": "Structural reform is painful but necessary; stimulus now only delays the reckoning.",
+        "voice": "Our wages and home values are dropping; we need relief now.",
+        "elites": "Stimulate consumption, not just state infrastructure—let markets breathe."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_09_social_protests_surge",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Surge in Social Protests",
+      "fact": "In the third quarter of 2025, Freedom House's China Dissent Monitor recorded 1,392 protest events, a roughly 50% increase, driven by laid-off workers, defrauded investors, and farmers whose land was seized by cash-strapped local governments.",
+      "touches": [
+        "social_cohesion",
+        "security",
+        "institutional_stability"
+      ],
+      "dilemma": "Crack down hard on protests to maintain social order and party authority, or address the root economic causes by redirecting central funds to local governments, risking fiscal discipline.",
+      "hidden_info": "Local police forces in some regions were facing budget shortfalls, limiting their capacity to maintain stability without central subsidies.",
+      "figures": [
+        "security",
+        "premier",
+        "voice"
+      ],
+      "stakeholder_positions": {
+        "security": "We must maintain order; protests cannot be allowed to spread.",
+        "premier": "We need to address the economic grievances, but the budget is tight.",
+        "voice": "We are just asking for our savings and land back; the government ignores us."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_10_pla_purge",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Purge of Top PLA Generals",
+      "fact": "On October 17, the Ministry of National Defense announced the expulsion of nine generals, including CMC Vice Chairman He Weidong and Political Work Director Miao Hua, for serious duty-related crimes involving extremely large amounts of money.",
+      "touches": [
+        "pla_loyalty",
+        "institutional_stability",
+        "coup_plot_progress"
+      ],
+      "dilemma": "Purge top military leadership to eliminate corruption and consolidate control ahead of 2027, or risk destabilizing the PLA chain of command and creating dangerous factional resentment.",
+      "hidden_info": "The true extent of the factional networks within the PLA and whether the purge was purely anti-corruption or politically motivated was unclear.",
+      "figures": [
+        "military_chief",
+        "security"
+      ],
+      "stakeholder_positions": {
+        "military_chief": "These corrupt elements betrayed the Party; their removal strengthens our combat readiness.",
+        "security": "We must ensure the purge does not create security vacuums or disloyalty in the ranks."
+      },
+      "preconditions": {},
+      "branchable": true,
+      "military": true,
+      "faction_touches": [
+        "pla_loyalty"
+      ]
+    },
+    {
+      "id": "china_2025_10_xi_us_trade_deal",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Xi-Trump One-Year Trade Truce",
+      "fact": "On October 30, Xi Jinping and the US President sealed a one-year trade truce on the sidelines of the APEC summit in South Korea, pausing mutual escalation in the trade war.",
+      "touches": [
+        "economy",
+        "international_power",
+        "party_loyalty"
+      ],
+      "dilemma": "Make concessions on market access and purchases to secure a year of economic breathing room, or stand firm on industrial policy and risk immediate tariff escalation.",
+      "hidden_info": "The US administration's commitment to the deal was fragile, and domestic hardliners in China viewed any concession as a betrayal of self-reliance.",
+      "figures": [
+        "foreign",
+        "foreign_leader",
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign": "A truce gives us time, but we must not compromise our core strategic sectors.",
+        "foreign_leader": "If China doesn't follow through on purchases, the tariffs come back harder.",
+        "econ_czar": "The truce is necessary for our exporters, but we must accelerate domestic substitution in case it fails.",
+        "elites": "A truce protects our exports; we urge making it permanent."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_11_health_insurance_squeeze",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Health Insurance Fund Strain",
+      "fact": "By late 2025, data showed the resident medical insurance fund expenditure reached 1.06 trillion yuan against 1.12 trillion in revenue, while an aging population and declining births put the system's sustainability under severe strain.",
+      "touches": [
+        "fiscal_health",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Increase individual premium contributions and co-pays to stabilize the health insurance fund, or maintain low costs for citizens and risk a fiscal shortfall that could crash the healthcare system.",
+      "hidden_info": "The rate of population aging was accelerating faster than official projections, threatening to bankrupt the fund sooner than publicly acknowledged.",
+      "figures": [
+        "premier",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We must balance the health budget, but raising fees on citizens is politically dangerous.",
+        "voice": "We are already struggling with healthcare costs; don't shift the burden to us.",
+        "elites": "Squeezed insurance means squeezed consumer spending—bad for our markets."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_12_q4_growth_slowdown",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "Q4 Growth Slows to 4.5%",
+      "fact": "China's GDP growth slowed to 4.5% in the fourth quarter, the weakest pace in nearly three years, with retail sales growth dropping to 0.9%, though full-year growth met the 5% target.",
+      "touches": [
+        "economy",
+        "social_cohesion",
+        "fiscal_health"
+      ],
+      "dilemma": "Roll out aggressive stimulus measures to boost domestic consumption and risk worsening debt, or accept lower growth as the 'new normal' to focus on structural quality.",
+      "hidden_info": "The true extent of domestic consumption weakness was masked by one-off trade-in programs, and underlying demand remained very fragile.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "We met the 5% target, but the momentum is fading; we need to support demand.",
+        "econ_czar": "We must not sacrifice our long-term structural reforms for short-term stimulus.",
+        "elites": "Growth requires private sector confidence, not just state directives."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_cond_hormuz_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Hormuz Crisis Threatens Energy",
+      "fact": "Following the US-Israeli attack on Iran in early 2026, China faced a severe energy security dilemma as Russia, China, and Iran had just conducted joint naval exercises in the Strait of Hormuz, through which a massive portion of China's oil imports pass.",
+      "touches": [
+        "security",
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Deploy naval assets to protect Chinese shipping through the Strait of Hormuz, risking direct confrontation with the US, or rely on diplomacy and accept severe short-term energy disruptions.",
+      "hidden_info": "The exact size of China's strategic petroleum reserve and how long it could buffer a total Hormuz shutdown was a closely guarded state secret.",
+      "figures": [
+        "military_chief",
+        "foreign",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "military_chief": "We must show strength to protect our sea lanes; we cannot be bullied.",
+        "foreign": "We must work with BRICS to de-escalate, but our energy lifeline is at stake.",
+        "elites": "Energy shocks destroy margins; we need strategic reserves opened, not warships."
+      },
+      "preconditions": {
+        "international_power": ">60"
+      },
+      "branchable": true
+    },
+    {
+      "id": "china_2025_cond_local_debt_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Local Government Debt Unraveling",
+      "fact": "With social protests surging 50% in 2025 driven by cash-strapped local governments seizing land and defaulting on payments, the fiscal resources to pay police and fund stability operations ran dry at the lowest bureaucratic levels.",
+      "touches": [
+        "fiscal_health",
+        "social_cohesion",
+        "institutional_stability"
+      ],
+      "dilemma": "Authorize a massive central bailout of local governments to restore basic services and stability, or force local bankruptcies to impose fiscal discipline, risking systemic social collapse.",
+      "hidden_info": "The central government lacked a clear picture of the total hidden debt across all local financing vehicles, making a bailout potentially bottomless.",
+      "figures": [
+        "premier",
+        "econ_czar",
+        "security",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "premier": "If we bail them out, they will never learn fiscal discipline; if we don't, the system breaks.",
+        "econ_czar": "Moral hazard is a huge risk; we must force local restructuring.",
+        "security": "If local police and services aren't funded, protests will overwhelm us.",
+        "elites": "Local defaults freeze land markets; Beijing must guarantee debts to restore stability."
+      },
+      "preconditions": {
+        "economy": "<45"
+      },
+      "branchable": true
+    },
+    {
+      "id": "china_2025_ai_selfreliance",
+      "type": "conditional",
+      "title_seed": "The drive for AI & chip self-sufficiency",
+      "fact": "Stung by US export controls, China pours resources into homegrown AI chips (Huawei Ascend) and compute to cut dependence on Nvidia.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "preconditions": {},
+      "dilemma": "Pour state money into a costly homegrown chip stack (sovereignty, fiscal strain) or keep buying foreign chips while you still can?",
+      "hidden_info": "How many years behind the domestic chips really are.",
+      "figures": [
+        "econ_czar",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "Self-reliance is non-negotiable; fund the fabs.",
+        "elites": "Forced localization raises our costs and dents margins."
+      },
+      "base_weight": 1.0
+    },
+    {
+      "id": "china_2025_05_tariff_truce_negotiations",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Geneva Tariff Truce Negotiations",
+      "fact": "On May 12, 2025, U.S. and Chinese negotiators agreed in Geneva to temporarily suspend most tariffs for 90 days, cutting U.S. tariffs on Chinese imports from 145% to 30% and China's retaliatory tariffs from 125% to 10%, while retaining U.S. fentanyl-related duties.",
+      "touches": [
+        "economy",
+        "international_power",
+        "party_loyalty"
+      ],
+      "dilemma": "Agree to the 90-day truce to stabilize markets and avert immediate economic damage, or hold the line on high tariffs to project strength and demand unilateral concessions from the U.S.?",
+      "hidden_info": "Trump's team privately considered the truce a stalling tactic, and the temporary suspension would unravel within weeks when China's rare-earth restrictions took effect.",
+      "figures": [
+        "econ_czar",
+        "foreign_leader"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "We must lower tariffs immediately to stabilize our export sector and prevent factory closures.",
+        "foreign_leader": "We got them to the table, but we keep the fentanyl tariffs as leverage for the next round."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_06_london_rare_earths_deal",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "London Rare Earths and Visa Deal",
+      "fact": "Following two days of intense talks in London in June 2025, President Trump announced a 'done deal' where China agreed to supply U.S. companies with rare earths and magnets, while the U.S. walked back threats to revoke visas for Chinese students.",
+      "touches": [
+        "economy",
+        "international_power",
+        "security"
+      ],
+      "dilemma": "Trade away rare-earth leverage to save Chinese students in the U.S. and stabilize trade, or maintain the export controls as a strategic chokepoint against the Pentagon?",
+      "hidden_info": "China planned to fulfill the letter of the deal while using bureaucratic licensing delays to quietly ration actual shipments, preserving de facto leverage.",
+      "figures": [
+        "econ_czar",
+        "foreign_leader"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "A framework deal protects our broader export market; we can manage the rare-earth flow administratively.",
+        "foreign_leader": "We secure the magnets our defense industry needs and look tough on China by keeping the student visa threat alive."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_06_eu_ev_tariff_leverage",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "EU EV Tariff and Rare Earth Leverage",
+      "fact": "In June 2025, Beijing linked its rare-earth export approvals to the EU's anti-subsidy tariffs on Chinese electric vehicles, signaling willingness to expedite rare-earth shipments only if Brussels eased the EV tariffs.",
+      "touches": [
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Use rare-earth dominance as a coercive tool to force the EU to drop EV tariffs, risking a broader trade war with Europe, or offer concessions on rare earths to preserve access to the crucial European automotive market?",
+      "hidden_info": "The EU was actively evaluating its strategic vulnerabilities and would later replace the EV tariffs with a 'price floor' mechanism, rendering China's coercive gamble partially obsolete.",
+      "figures": [
+        "econ_czar",
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "We must link these issues; our EV sector is too vital to sacrifice, and Europe needs our rare earths.",
+        "foreign": "We cannot allow Beijing to weaponize supply chains, but we must secure the raw materials for our green transition."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_07_rare_earth_export_controls",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Rare Earth Export Licensing Regime",
+      "fact": "In July 2025, China's Ministry of Commerce implemented a new export-license system for medium and heavy rare-earth elements, explicitly designed to increase Beijing's leverage over Pentagon supply chains and global tech manufacturing.",
+      "touches": [
+        "security",
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Aggressively enforce the licensing regime to maximize strategic leverage over the U.S. military, or issue licenses freely to avoid accelerating Western decoupling and investment in alternative rare-earth sources?",
+      "hidden_info": "The licensing system was designed to be a 'control rod'—flexible enough to grant or deny shipments on a case-by-case basis, but its overuse risked triggering a global scramble to bypass China entirely.",
+      "figures": [
+        "security",
+        "econ_czar"
+      ],
+      "stakeholder_positions": {
+        "security": "This is our most potent non-kinetic weapon against U.S. military encirclement; we must squeeze them.",
+        "econ_czar": "If we choke supply too hard, we will destroy our market share and spur rivals to develop alternatives."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_09_sco_tianjin_summit",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "SCO Tianjin Summit and Multipolar Order",
+      "fact": "On September 1, 2025, Xi Jinping hosted Putin and Modi at the SCO summit in Tianjin, issuing the Tianjin Declaration that pledged billions in aid and loans to Global South nations to promote a 'multipolar world order' opposing U.S. dominance.",
+      "touches": [
+        "international_power",
+        "fiscal_health",
+        "economy"
+      ],
+      "dilemma": "Commit billions in state loans and aid to buy geopolitical allegiance against the U.S., or conserve fiscal resources for mounting domestic economic pressures and local government debt crises?",
+      "hidden_info": "Several SCO recipient nations had poor credit and the loans were at high risk of default, meaning the fiscal burden would fall entirely on Chinese state banks.",
+      "figures": [
+        "foreign",
+        "premier"
+      ],
+      "stakeholder_positions": {
+        "foreign": "This is our moment to lead the Global South; we must spend to reshape the world order.",
+        "premier": "We are overcommitting state funds abroad while our local governments face a debt crisis at home."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_10_rare_earth_controls_expansion",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Expansion of Rare Earth Controls",
+      "fact": "On October 9, 2025, China expanded its export controls to require government approval for the export of dual-use items containing even trace amounts of Chinese-origin rare earths, including semiconductors and AI devices manufactured outside China.",
+      "touches": [
+        "international_power",
+        "economy",
+        "security"
+      ],
+      "dilemma": "Assert extraterritorial control over foreign-made goods containing Chinese rare earths to maximize geopolitical leverage, or limit controls to domestic exports to avoid alienating global tech firms and accelerating decoupling?",
+      "hidden_info": "The second wave of controls was officially suspended until November 2026, a tactical retreat meant to calm markets while keeping the long-term threat active.",
+      "figures": [
+        "econ_czar",
+        "security"
+      ],
+      "stakeholder_positions": {
+        "security": "We must control the end-use of our resources, even in foreign products, to strangle U.S. military tech.",
+        "econ_czar": "Extraterritorial controls will devastate foreign trust in our supply chains and accelerate our isolation from global tech."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_11_rare_earth_paperwork_chokepoint",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Administrative Rare Earths Rationing",
+      "fact": "By November 2025, China leveraged administrative procedures—licensing, inspections, and a 'one batch, one licence' rule—to ration rare-earth exports without formal embargoes, creating severe supply frictions for global manufacturers.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Maintain the bureaucratic chokehold to keep foreign manufacturers dependent and compliant, or streamline the paperwork to stabilize global supply chains and repair trade relationships damaged by the uncertainty?",
+      "hidden_info": "The administrative delays were a deliberate strategy to maintain plausible deniability while weaponizing supply chains, but they were pushing EU and U.S. firms to fast-track alternative sourcing investments.",
+      "figures": [
+        "econ_czar",
+        "foreign"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "The paperwork delays are a perfect tool—deniable but effective. Let's keep the pressure on.",
+        "foreign": "This bureaucratic warfare is destroying the reliability of Chinese supply; we must accelerate decoupling."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_12_justice_mission_blockade",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "Justice Mission-2025 Taiwan Blockade Drill",
+      "fact": "From December 29-31, 2025, the PLA conducted the 'Justice Mission-2025' exercise, its most extensive war games to date, simulating a full blockade of Taiwan with live-fire rockets, assault ships, and anti-submarine drills in response to a U.S. arms package.",
+      "touches": [
+        "security",
+        "international_power",
+        "pla_loyalty"
+      ],
+      "dilemma": "Escalate the blockade simulation to project resolve against U.S. arms sales to Taiwan, or limit the drills to avoid provoking a stronger U.S. military presence in the Strait and devastating economic retaliation?",
+      "hidden_info": "The exercise was the closest live-fire drill to Taiwan's coast to date, and U.S. intelligence assessed that the PLA was actively testing real-world blockade logistics rather than just signaling.",
+      "figures": [
+        "military_chief",
+        "foreign_leader"
+      ],
+      "stakeholder_positions": {
+        "military_chief": "We must rehearse a real blockade to prepare for contingencies and deter Taiwanese independence.",
+        "foreign_leader": "These drills are concerning but will not stop U.S. support for Taiwan; we are not worried."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "china_2025_conditional_truce_collapse",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Trade Truce Unravels Over Violations",
+      "fact": "Following the 90-day tariff truce, President Trump reignited trade tensions by declaring China had 'totally violated' the agreement, specifically citing China's bureaucratic delays on rare-earth shipments as a breach of the deal's spirit.",
+      "touches": [
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Dismantle the rare-earth licensing delays to save the broader tariff truce and stabilize exports, or double down on the export controls as a strategic asset and accept the return of crippling 145% tariffs?",
+      "hidden_info": "Trump's team was looking for a pretext to re-escalate tariffs to appease domestic industrial interests; conceding on rare earths might not have prevented the tariff return.",
+      "figures": [
+        "econ_czar",
+        "foreign_leader"
+      ],
+      "stakeholder_positions": {
+        "econ_czar": "We cannot afford to lose our largest export market over a paperwork dispute; we must comply.",
+        "foreign_leader": "China broke the deal, so the tariffs go back up. We must protect American industry."
+      },
+      "preconditions": {
+        "international_power": ">60"
+      },
+      "branchable": true
+    }
+  ],
+  "_note": "China 2025 deck via Ollama glm-5.1 + web_search. REVIEW before use."
+}

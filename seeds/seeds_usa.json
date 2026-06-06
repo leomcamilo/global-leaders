@@ -1,0 +1,814 @@
+{
+  "_note": "USA 2025 deck. Curated from deep-research (verified 3-0). Domestic events only; shared facts (Liberation Day tariffs, Iran strikes, Zelensky meeting) live in seeds_global.json. Figure keys match engine/countries.py USA_ROSTER.",
+  "events": [
+    {
+      "id": "usa_2025_02_rfk_maha",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "RFK Jr. confirmed to run health (MAHA)",
+      "fact": "On Feb 13, 2025 Robert F. Kennedy Jr. was confirmed HHS Secretary 52-48 (McConnell broke with the GOP), launching the 'Make America Healthy Again' agenda amid alarm from the scientific establishment.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Empower a populist health overhaul that thrills the base, or rein it in to keep the medical/scientific establishment on side?",
+      "hidden_info": "How far MAHA will go on vaccines and food regulation, and how the public-health system will react.",
+      "figures": [
+        "sec_health",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "sec_health": "Vows to upend 'captured' health agencies.",
+        "opposition_house": "Warns of a war on science and public health."
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_02_doge_launch",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "DOGE gets the keys to the federal payment system",
+      "fact": "DOGE, overseen by Elon Musk, gained access to the Treasury payment system (~88% of federal payments) in early Feb 2025; a Feb 11 order pushed agencies to cooperate with mass firings and the shuttering of USAID.",
+      "touches": [
+        "fiscal_health",
+        "public_services",
+        "institutional_stability",
+        "approval"
+      ],
+      "dilemma": "Let Musk slash the state for fast fiscal wins, or curb him to avoid chaotic firings and institutional damage?",
+      "hidden_info": "Whether the cuts hold up in court and how loyal Musk stays.",
+      "figures": [
+        "doge",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "doge": "Move fast and break the bureaucracy.",
+        "sec_treasury": "Worries about legal exposure and payment-system integrity.",
+        "elites": "Efficiency is profit—streamlining federal payments is long overdue."
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_03_signalgate",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "'Signalgate': war plans leak in a group chat",
+      "fact": "Senior officials discussed sensitive military plans in a Signal group chat that accidentally included a journalist, igniting a security and accountability scandal.",
+      "touches": [
+        "security",
+        "institutional_stability",
+        "approval"
+      ],
+      "dilemma": "Fire the officials to show accountability, or stand by your team and tough out the storm?",
+      "hidden_info": "How much classified detail actually leaked and whether more chats surface.",
+      "figures": [
+        "sec_defense",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_defense": "Insists nothing classified was shared.",
+        "press": "Smells a major operational-security breach.",
+        "elites": "Incompetence rattles markets; we need steady hands guarding defense contracts."
+      }
+    },
+    {
+      "id": "usa_2025_05_tariff_courts",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Courts strike down the tariffs",
+      "fact": "On May 28, 2025 the Court of International Trade ruled the IEEPA tariffs unlawful (later upheld by the Federal Circuit), threatening the centerpiece of your trade policy and billions already collected.",
+      "touches": [
+        "institutional_stability",
+        "fiscal_health",
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Defy and appeal to keep the leverage, or comply and lose your signature policy?",
+      "hidden_info": "How the Supreme Court will ultimately rule and the refund exposure.",
+      "figures": [
+        "attorney_general",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "attorney_general": "Push the appeal; the executive can't be boxed in.",
+        "sec_treasury": "A reversal means a fiscal and market headache.",
+        "elites": "Courts restored sanity—free trade beats self-inflicted economic wounds."
+      }
+    },
+    {
+      "id": "usa_2025_06_la_ice",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "ICE raids, LA protests, and the National Guard",
+      "fact": "In June 2025, ICE raids in Los Angeles sparked protests; you federalized California's National Guard (2,000 troops) and sent 700 Marines over Gov. Newsom's objections, as nationwide 'No Kings' protests hit ~2,100 locations on June 14.",
+      "touches": [
+        "social_cohesion",
+        "institutional_stability",
+        "security",
+        "approval"
+      ],
+      "dilemma": "Project authority with federal force, or stand down to avoid a federalism clash and spreading unrest?",
+      "hidden_info": "Whether the courts back the federalization and how far protests spread.",
+      "figures": [
+        "sec_defense",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "sec_defense": "Deploy hard; restore order.",
+        "opposition_house": "Calls it an authoritarian overreach against a state."
+      }
+    },
+    {
+      "id": "usa_2025_06_musk_feud",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "The Trump–Musk blow-up (and an Epstein jab)",
+      "fact": "After Musk left DOGE over the deficit-busting 'One Big Beautiful Bill', the feud went public in June: Musk claimed you'd have lost without him and posted that you were 'in the Epstein files' (an unproven claim he later walked back).",
+      "touches": [
+        "approval",
+        "social_cohesion",
+        "institutional_stability"
+      ],
+      "dilemma": "Hit back and crush a former ally, or de-escalate to stop the Epstein innuendo from sticking?",
+      "hidden_info": "What Musk might leak next and whether the base sides with him.",
+      "figures": [
+        "doge",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "doge": "Threatens to turn his platform against you.",
+        "press": "Amplifies every Epstein-adjacent claim."
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_07_epstein_files",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "The Epstein 'client list' backlash",
+      "fact": "The DOJ walked back the long-promised Epstein 'client list' that AG Bondi had hyped, enraging parts of the MAGA base who felt betrayed (controversy, not a settled fact).",
+      "touches": [
+        "social_cohesion",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Release everything to satisfy the base, or contain it to protect allies and avoid a circus?",
+      "hidden_info": "What the files actually contain and who they implicate.",
+      "figures": [
+        "attorney_general",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "attorney_general": "Tries to bury the reversal quietly.",
+        "opposition_house": "Gleefully highlights the base's fury."
+      }
+    },
+    {
+      "id": "usa_2025_10_shutdown",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "The record 43-day government shutdown",
+      "fact": "From Oct 1, 2025 the government entered what became the longest shutdown ever (43 days), driven by a fight over extending expiring ACA health subsidies; a continuing resolution failed 14 times in the Senate.",
+      "touches": [
+        "public_services",
+        "fiscal_health",
+        "approval",
+        "institutional_stability",
+        "economy"
+      ],
+      "dilemma": "Concede on the ACA subsidies to reopen the government, or hold the line and let the pain mount?",
+      "hidden_info": "Which side blinks first and who voters blame.",
+      "figures": [
+        "opposition_house",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "opposition_house": "No funding without the ACA extension.",
+        "sec_treasury": "Each week of shutdown dents growth and confidence.",
+        "elites": "End the shutdown—uncertainty freezes capital and spooks bond markets."
+      }
+    },
+    {
+      "id": "usa_fed_pressure",
+      "type": "conditional",
+      "title_seed": "Pressure on the Fed as inflation bites",
+      "fact": "With prices stubborn, the spotlight turns to Fed Chair Jerome Powell and whether the White House should lean on (or try to oust) him.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "institutional_stability"
+      ],
+      "preconditions": {
+        "economy": "<52"
+      },
+      "dilemma": "Bully the Fed for rate cuts and growth, or respect its independence and credibility?",
+      "hidden_info": "Whether markets would punish an assault on Fed independence.",
+      "figures": [
+        "fed_chair",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "fed_chair": "Defends the Fed's independence.",
+        "sec_treasury": "Warns that markets price in central-bank credibility.",
+        "elites": "Powell must stay independent; political meddling destroys market credibility."
+      }
+    },
+    {
+      "id": "usa_costofliving",
+      "type": "conditional",
+      "title_seed": "Cost-of-living anger boils over",
+      "fact": "Voters are squeezed by prices and blame Washington; the pocketbook mood sours fast.",
+      "touches": [
+        "approval",
+        "economy",
+        "social_cohesion"
+      ],
+      "preconditions": {
+        "approval": "<45"
+      },
+      "dilemma": "Spend to ease the pain (and blow the budget), or hold firm and absorb the anger?",
+      "hidden_info": "How quickly relief would actually reach households.",
+      "figures": [
+        "voice",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "voice": "We just want groceries and rent to be affordable.",
+        "sec_treasury": "Unfunded relief stokes the deficit and inflation.",
+        "elites": "Stable prices protect margins—rate cuts now risk reigniting inflation."
+      }
+    },
+    {
+      "id": "usa_venezuela",
+      "type": "conditional",
+      "title_seed": "Pressure on Venezuela's Maduro",
+      "fact": "Calls grow to squeeze the Maduro regime through sanctions or military pressure in the hemisphere.",
+      "touches": [
+        "international_power",
+        "security",
+        "approval"
+      ],
+      "preconditions": {},
+      "dilemma": "Apply hard military/sanctions pressure to project strength, or show restraint to avoid another foreign entanglement?",
+      "hidden_info": "Maduro's staying power and the regional fallout.",
+      "figures": [
+        "sec_state",
+        "sec_defense",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "Maximum pressure can force change.",
+        "sec_defense": "Warns of mission creep in the hemisphere.",
+        "elites": "Sanctions open doors for our energy sector—squeeze Maduro, free the reserves."
+      },
+      "base_weight": 0.8
+    },
+    {
+      "id": "usa_2025_07_texas_floods",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Devastating Texas floods trigger major disaster declaration",
+      "fact": "On July 6, 2025, President Trump issued a major disaster declaration for the State of Texas (FEMA-4879-DR) following catastrophic flooding. Climate scientists noted the events were made more likely by human-caused climate change, even though the continental U.S. experienced no hurricane landfalls in 2025.",
+      "touches": [
+        "security",
+        "economy",
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Allocate massive federal disaster aid to a state with a large electoral base while managing a strained FEMA budget, or push for state/local responsibility to minimize federal spending.",
+      "hidden_info": "The full extent of the infrastructure damage and the precise role of climate change in exacerbating the floods were still being assessed.",
+      "figures": [
+        "voice",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "voice": "We are drowning and the government must help us rebuild immediately.",
+        "press": "These floods bear the fingerprints of climate change, which the administration ignores at our peril.",
+        "elites": "FEMA contracts and infrastructure rebuilds—tragedy drives demand."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_03_ed_dept_dismantle",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "Executive order targets the Department of Education for elimination",
+      "fact": "In March 2025, President Trump signed an executive order directing the education secretary to begin dismantling the Department of Education, moving key functions to other agencies. The move put the future of trillions of dollars in student loans and federal financial aid into question.",
+      "touches": [
+        "public_services",
+        "institutional_stability",
+        "social_cohesion"
+      ],
+      "dilemma": "Push forward with a rapid dismantling of the department to fulfill a campaign promise, or slow down to ensure the transfer of student loans and financial aid doesn't collapse.",
+      "hidden_info": "The legal authority of the president to unilaterally dissolve a cabinet-level agency without congressional approval was highly uncertain.",
+      "figures": [
+        "opposition_house",
+        "voice"
+      ],
+      "stakeholder_positions": {
+        "opposition_house": "This is an illegal power grab that will destroy public education and jeopardize student loans.",
+        "voice": "We just want our kids' schools funded and our college loans processed without chaos."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_07_scotus_ed_ruling",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Supreme Court clears way for Education Department layoffs",
+      "fact": "On July 14, 2025, the Supreme Court paused a lower court order that had halted nearly 1,400 layoffs, clearing the way for the Trump administration to continue unwinding the Department of Education and outsourcing its operations.",
+      "touches": [
+        "institutional_stability",
+        "public_services"
+      ],
+      "dilemma": "Use the court victory to aggressively execute layoffs and break up the department immediately, or proceed cautiously to avoid operational meltdowns in student aid.",
+      "hidden_info": "The long-term legality of dissolving the department entirely still required a full Supreme Court ruling on the merits.",
+      "figures": [
+        "opposition_house",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "opposition_house": "The Court's pause is temporary; this illegal dismantling must be stopped permanently.",
+        "press": "The administration is rushing to execute layoffs before the courts can issue a final ruling."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "usa_2025_04_measles_outbreak",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Measles outbreaks spread as HHS cuts staff and challenges vaccines",
+      "fact": "In April 2025, as Health and Human Services Secretary Robert F. Kennedy Jr. oversaw the elimination of thousands of HHS jobs and froze billions in scientific research, measles outbreaks sickened hundreds across multiple states, including a severe outbreak in West Texas.",
+      "touches": [
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Maintain the MAHA agenda by cutting staff and questioning vaccine orthodoxy, or pivot to a robust federal vaccination campaign to contain the highly contagious outbreak.",
+      "hidden_info": "The true extent of the measles spread was underestimated due to the simultaneous gutting of CDC monitoring personnel.",
+      "figures": [
+        "sec_health",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "sec_health": "I am focused on chronic disease and root causes, not taking responsibility for localized measles flare-ups.",
+        "press": "The Secretary's vaccine skepticism and staffing cuts are directly fueling the loss of America's measles-free status."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_12_measles_status_lost",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "US poised to lose measles-free status after year of outbreaks",
+      "fact": "By December 2025, ongoing measles outbreaks had sickened more than 2,400 people, leaving the United States poised to lose its measles-free status. RFK Jr.'s newly appointed CDC deputy downplayed the significance of losing the designation.",
+      "touches": [
+        "public_services",
+        "international_power"
+      ],
+      "dilemma": "Acknowledge the loss of measles-free status as a public health failure requiring emergency intervention, or continue downplaying the crisis to protect the administration's MAHA narrative.",
+      "hidden_info": "Genomic analysis was still underway to determine how the various outbreaks were linked, complicating the official narrative.",
+      "figures": [
+        "sec_health",
+        "opposition_house",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_health": "Losing this bureaucratic status is just the cost of doing business with porous borders.",
+        "opposition_house": "This is a preventable tragedy caused by the Secretary's anti-science crusade.",
+        "elites": "Public health crises disrupt workforce availability—fund the CDC."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "usa_2025_06_ed_budget_cuts",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Trump budget proposes 15% cut to Education Department",
+      "fact": "On June 2, 2025, the Trump administration released its budget proposal for fiscal year 2026, calling for a 15% funding cut to the Department of Education and major changes to K-12 and higher education programs, even as a federal judge had blocked the executive order to close the department.",
+      "touches": [
+        "public_services",
+        "fiscal_health"
+      ],
+      "dilemma": "Push the deep cuts through Congress to shrink the federal footprint, or compromise to save essential student aid programs facing elimination.",
+      "hidden_info": "The exact programs targeted for elimination were still being negotiated behind closed doors with congressional leaders.",
+      "figures": [
+        "opposition_house",
+        "sec_treasury",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "opposition_house": "These cuts will devastate public schools and college affordability.",
+        "sec_treasury": "We must tighten the federal belt and return education funding to the states.",
+        "elites": "Education cuts are fine, but preserve the corporate training tax credits."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_09_guard_governors",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Governors split on mobilizing National Guard for immigration enforcement",
+      "fact": "By September 2025, governors across the country were split on mobilizing their National Guardsmen to help the Trump administration's widening immigration crackdown, as armed military personnel patrolled the streets of Washington, D.C. and other cities.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "institutional_stability"
+      ],
+      "dilemma": "Federalize state National Guards over governor objections to meet the 20,000-troop quota for immigration enforcement, or rely on voluntary state deployments and risk falling short of targets.",
+      "hidden_info": "The full $3.6 billion cost estimate of deploying 20,000 troops was still being hidden from public budget disclosures.",
+      "figures": [
+        "sec_defense",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "sec_defense": "We need total compliance from the states to secure the homeland and assist ICE.",
+        "opposition_house": "This is an unconstitutional militarization of our communities that violates state sovereignty."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_11_epstein_clinton_probe",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Trump asks DOJ to investigate Bill Clinton over Epstein ties",
+      "fact": "In November 2025, President Trump publicly called on the Department of Justice to investigate ties between former President Bill Clinton and Jeffrey Epstein. This request came shortly after a trove of newly released emails raised questions about Trump's own relationship with Epstein.",
+      "touches": [
+        "institutional_stability",
+        "social_cohesion"
+      ],
+      "dilemma": "Order a politically charged investigation into a former rival to satisfy the base, or back down to avoid setting a precedent of presidents using the DOJ against predecessors.",
+      "hidden_info": "The newly released emails implicating Trump's own ties to Epstein were more damaging than publicly acknowledged.",
+      "figures": [
+        "attorney_general",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "attorney_general": "We will follow the facts wherever they lead regarding these heinous crimes.",
+        "press": "This is a transparent attempt to weaponize the DOJ to distract from the president's own Epstein connections."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_cond_tariff_recession",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Tariff retaliation triggers economic downturn",
+      "fact": "Following the implementation of 'Liberation Day' tariffs that raised average duties from 2.4% to 9.6%, trading partners imposed matching retaliation on U.S. exports, causing significant short-run costs to output and welfare.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "approval"
+      ],
+      "dilemma": "Double down on tariffs to force better trade deals despite domestic economic pain, or roll back tariffs to stabilize the economy and lower inflation.",
+      "hidden_info": "The full pass-through of tariff costs to consumer prices was still lagging, meaning worse inflation was yet to come.",
+      "figures": [
+        "sec_treasury",
+        "fed_chair",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_treasury": "Short-term pain is necessary to reshore manufacturing and get fair trade deals.",
+        "fed_chair": "Retaliatory tariffs are creating stagflationary pressures that monetary policy cannot easily fix.",
+        "elites": "Tariffs started this recession—deregulate and cut taxes to revive growth."
+      },
+      "preconditions": {
+        "economy": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_cond_health_collapse",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Public health system nears collapse amid HHS cuts",
+      "fact": "The elimination of thousands of HHS jobs and the freezing of billions for scientific research left the public health system unable to cope with a cascading viral outbreak, as RFK Jr. continued to downplay the crisis.",
+      "touches": [
+        "public_services",
+        "security"
+      ],
+      "dilemma": "Reverse course and restore HHS funding to combat the outbreak, or maintain the MAHA agenda cuts and rely on state-level responses.",
+      "hidden_info": "The CDC's capacity to sequence and track the outbreak was severely compromised by the prior staffing cuts.",
+      "figures": [
+        "sec_health",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "sec_health": "The federal government needs to step back and let states handle acute health events.",
+        "press": "The Secretary's dismantling of the nation's health infrastructure is directly responsible for the loss of life."
+      },
+      "preconditions": {
+        "public_services": "<30"
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_01_stargate",
+      "type": "anchored",
+      "month": 1,
+      "title_seed": "Stargate: a $500bn AI moonshot",
+      "fact": "On Jan 21, 2025 Trump unveiled 'Stargate', a private $500bn AI-infrastructure venture (OpenAI, Oracle, SoftBank), staking US leadership in artificial intelligence.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Throw the state's weight (energy, permits, optics) behind a Big Tech megaproject, or avoid picking winners and the energy/fiscal strain?",
+      "hidden_info": "Whether the money is real and the data-center power can be built in time.",
+      "figures": [
+        "elites",
+        "sec_treasury"
+      ],
+      "stakeholder_positions": {
+        "elites": "This is the future — clear the permits and the grid and we'll build it.",
+        "sec_treasury": "Mind the energy costs and who's actually funding it."
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_07_ai_action_plan",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "The AI Action Plan: deregulate and dominate",
+      "fact": "In July 2025 the White House released an AI Action Plan to speed buildout, strip 'red tape', and export American AI — cheering Big Tech, worrying labor and safety advocates.",
+      "touches": [
+        "economy",
+        "social_cohesion",
+        "international_power"
+      ],
+      "dilemma": "Go all-in on rapid, lightly-regulated AI (growth, Big Tech goodwill, but job-loss and safety fears) or add guardrails that slow the boom?",
+      "hidden_info": "How fast automation hits jobs and whether a safety incident blows back.",
+      "figures": [
+        "elites",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "elites": "Regulation is surrender to China — let us build.",
+        "opposition_house": "No guardrails means workers and consumers pay the price."
+      }
+    },
+    {
+      "id": "usa_chip_controls",
+      "type": "conditional",
+      "title_seed": "Sell AI chips to China — or choke them?",
+      "fact": "Pressure builds over whether to let Nvidia ship advanced AI chips (the H20) to China; a deal later allows sales to resume in exchange for a 15% cut to the US government.",
+      "touches": [
+        "international_power",
+        "economy",
+        "security"
+      ],
+      "preconditions": {},
+      "dilemma": "Block the chips to slow China's AI (hurting Nvidia's revenue and Big Tech) or allow sales for the cash and leverage?",
+      "hidden_info": "Whether the chips meaningfully accelerate China — or just enrich a rival.",
+      "figures": [
+        "elites",
+        "sec_state"
+      ],
+      "stakeholder_positions": {
+        "elites": "China will build its own anyway — let us sell and stay ahead.",
+        "sec_state": "Every advanced chip we ship sharpens a strategic rival."
+      },
+      "base_weight": 1.1
+    },
+    {
+      "id": "usa_2025_01_greenland_panama_threats",
+      "type": "anchored",
+      "month": 1,
+      "title_seed": "Territorial Expansion Threats over Greenland and Panama",
+      "fact": "On January 7, 2025, President Trump suggested he could use military force to acquire the Panama Canal and Greenland, and 'economic force' to annex Canada, stating he could not assure the public that military or economic coercion would not be used.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Double down on territorial acquisition threats to project strength and assert a new Monroe Doctrine, or walk back the statements to preserve critical alliances with Denmark, Panama, and Canada.",
+      "hidden_info": "Allied nations' private red lines regarding economic retaliation and the actual logistical feasibility of military action against sovereign NATO territory.",
+      "figures": [
+        "sec_state",
+        "sec_defense",
+        "opposition_house"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "We must pursue these strategic interests diplomatically without alienating our closest allies.",
+        "sec_defense": "Securing the Arctic and the Canal is a legitimate national security imperative we must be willing to back with force.",
+        "opposition_house": "These threats are reckless and risk triggering unnecessary conflicts with our allies."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_02_zelensky_minerals_clash",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "Oval Office Blowup with Zelensky",
+      "fact": "On February 28, 2025, a White House meeting between President Trump and Ukrainian President Volodymyr Zelensky devolved into a shouting match with Vice President JD Vance, resulting in the cancellation of a critical minerals deal signing and Zelensky's early departure.",
+      "touches": [
+        "international_power",
+        "security",
+        "economy"
+      ],
+      "dilemma": "Punish Zelensky's perceived disrespect by cutting off all aid and forcing a raw deal, or repair relations to secure the minerals agreement and maintain a unified front against Russia.",
+      "hidden_info": "Whether Russia views the breakdown as an opportunity for a massive spring offensive, and if Congress will act to force aid to Ukraine regardless.",
+      "figures": [
+        "vice_president",
+        "sec_state"
+      ],
+      "stakeholder_positions": {
+        "vice_president": "He disrespected us in our own house; we need to show strength and walk away.",
+        "sec_state": "We still need the rare earth minerals; we must salvage the deal without looking weak."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_04_ukraine_minerals_deal",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Signing the Ukraine Minerals Deal",
+      "fact": "On April 30, 2025, the US and Ukraine signed an agreement providing Washington access to valuable rare minerals, following months of fraught negotiations after the earlier February collapse.",
+      "touches": [
+        "international_power",
+        "economy",
+        "security"
+      ],
+      "dilemma": "Use the deal as leverage to force Ukraine into a rapid ceasefire deal with Russia on Moscow's terms, or treat it purely as an economic arrangement while continuing robust military support.",
+      "hidden_info": "The actual commercial viability of Ukraine's rare earth deposits under wartime conditions remains highly uncertain.",
+      "figures": [
+        "sec_state",
+        "sec_treasury"
+      ],
+      "stakeholder_positions": {
+        "sec_treasury": "This deal secures US access to critical resources and is a major economic win.",
+        "sec_state": "This is a tool to force both sides to the negotiating table and end the war."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_06_nato_5percent",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "NATO 5% Spending Pledge at The Hague",
+      "fact": "On June 25, 2025, NATO allies agreed to ramp up defense spending to 5% of GDP by 2035 following months of pressure from Trump, though Trump himself questioned the mutual defense guarantee enshrined in Article 5 on his way to the summit.",
+      "touches": [
+        "international_power",
+        "security",
+        "fiscal_health"
+      ],
+      "dilemma": "Commit the US unequivocally to Article 5 in exchange for European spending increases, or maintain strategic ambiguity on mutual defense to keep allies dependent and off-balance.",
+      "hidden_info": "European allies are privately unsure if they can actually meet the 5% target without devastating domestic economic consequences.",
+      "figures": [
+        "sec_defense",
+        "sec_state"
+      ],
+      "stakeholder_positions": {
+        "sec_defense": "This 5% commitment is a massive victory; we must affirm Article 5 to solidify the alliance.",
+        "sec_state": "Keep them guessing on Article 5; it's the only way to ensure they actually pay up."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_05_india_pakistan_ceasefire",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Claiming Credit for India-Pakistan Ceasefire",
+      "fact": "In May 2025, following a four-day conflict between India and Pakistan, Trump repeatedly claimed his administration used trade diplomacy to broker a ceasefire, stating 'I stopped the war' and it 'could have turned into nuclear disaster', despite India's PM Modi explicitly denying any US mediation role.",
+      "touches": [
+        "international_power",
+        "economy",
+        "security"
+      ],
+      "dilemma": "Continue publicly claiming credit to project global peacemaker status and leverage trade deals, or back down and respect India's stance to preserve a crucial Indo-Pacific strategic partnership.",
+      "hidden_info": "Whether Pakistan's military actually relied on US pressure or if the ceasefire was entirely bilateral, and how much Modi is willing to freeze US-India trade talks over the slight.",
+      "figures": [
+        "sec_state",
+        "vice_president"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "We should let Modi save face publicly while privately securing the trade advantages.",
+        "vice_president": "We stopped a nuclear war; we should claim the credit and use it to force better trade terms from both."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_09_gaza_peace_plan",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Unveiling the 20-Point Gaza Peace Plan",
+      "fact": "On September 29, 2025, Trump unveiled a comprehensive 20-point peace proposal to end the Gaza war alongside Israeli PM Benjamin Netanyahu, requiring Hamas to lay down arms, release all hostages, and withdraw Israeli troops, though Hamas had not yet agreed.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Pressure Israel to accept the full withdrawal of troops from Gaza as stipulated in the plan, or back Netanyahu's demands for indefinite security control and risk the deal collapsing.",
+      "hidden_info": "Hamas's internal willingness to actually disarm versus using the hostage release as a stalling tactic, and the stability of Netanyahu's coalition if he accepts the deal.",
+      "figures": [
+        "sec_state",
+        "sec_defense"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "This is our only window for a legacy peace deal; we must hold Israel to the full terms.",
+        "sec_defense": "We cannot abandon Israel's security requirements; if Netanyahu needs a buffer zone, we must support it."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_10_gaza_hostage_deal",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "First Phase of Gaza Deal Agreed",
+      "fact": "In October 2025, Hamas agreed to return all 48 remaining hostages in exchange for Palestinian prisoners, and both sides signed off on the first phase of Trump's peace plan, following a key diplomatic breakthrough after Israel's September strike on Hamas leaders in Doha.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Concede to Hamas's ambiguity on long-term governance of Gaza to secure the hostage release, or hold the deal hostage until Hamas explicitly accepts full technocratic governance and permanent disarmament.",
+      "hidden_info": "The true condition of the remaining hostages and whether regional allies like Qatar can actually enforce the transition to technocratic rule.",
+      "figures": [
+        "sec_state",
+        "sec_defense"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "Get the hostages out now; we can manage the governance details later.",
+        "sec_defense": "If Hamas doesn't explicitly disarm, this is just a tactical pause for them to rearm."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_conditional_nato_article5",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Testing NATO's Article 5 Commitment",
+      "fact": "Following the Hague summit, Trump continued to express uncertainty over whether Washington would abide by NATO's mutual defense guarantees, stating 'Depends on your definition' when asked about Article 5, keeping allies uncertain about US reliability.",
+      "touches": [
+        "international_power",
+        "security",
+        "institutional_stability"
+      ],
+      "dilemma": "Formally condition US defense commitments on European compliance with trade and spending targets, or reaffirm the traditional interpretation of Article 5 to maintain deterrence against Russia.",
+      "hidden_info": "The extent of Russian military planning for hybrid operations against Baltic states, and whether European leaders are accelerating independent defense projects in response.",
+      "figures": [
+        "sec_defense",
+        "sec_state",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_defense": "Strategic ambiguity is dangerous; we must draw a hard line to deter Moscow.",
+        "sec_state": "Leverage is our best tool; if they don't pay, we shouldn't guarantee their defense.",
+        "elites": "This ambiguity threatens global market stability and must end."
+      },
+      "preconditions": {
+        "international_power": ">60"
+      },
+      "branchable": true
+    },
+    {
+      "id": "usa_2025_conditional_doha_strike_fallout",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Managing Fallout from Israel's Doha Strike",
+      "fact": "Israel's September 9 missile strike targeting Hamas leaders in Doha violated the sovereignty of an American ally and risked expanding the conflict, but ultimately catalyzed the Gaza peace deal by demonstrating resolve.",
+      "touches": [
+        "international_power",
+        "security",
+        "institutional_stability"
+      ],
+      "dilemma": "Condemn Israel's violation of Qatari sovereignty to maintain international norms and the coalition, or quietly endorse the strike to keep pressure on Hamas and preserve the momentum toward a deal.",
+      "hidden_info": "Whether Qatar will expel US military assets in retaliation for the perceived green-lighting of the strike on their soil.",
+      "figures": [
+        "sec_state",
+        "sec_defense"
+      ],
+      "stakeholder_positions": {
+        "sec_state": "We cannot tolerate strikes on allied soil; it sets a dangerous precedent for regional war.",
+        "sec_defense": "The strike worked; it broke the deadlock. We look the other way to get the deal done."
+      },
+      "preconditions": {
+        "security": ">50"
+      },
+      "branchable": true
+    }
+  ]
+}

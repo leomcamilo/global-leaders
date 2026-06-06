@@ -1,0 +1,559 @@
+{
+  "events": [
+    {
+      "id": "france_2025_02_budget",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "2025 Budget Adopted Amid Deficit Crisis",
+      "fact": "On February 14, 2025, the 2025 finance law was published after an unprecedented parliamentary process, followed by the Social Security Financing Bill on February 28. The budget raised hospital funding by EUR 1 billion but left the social security deficit projected to exceed EUR 22 billion.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "public_services"
+      ],
+      "dilemma": "Balance fiscal consolidation to reduce the massive deficit against maintaining public services and hospital funding in a fragmented parliament.",
+      "hidden_info": "The actual 2025 public deficit would later reach 5.1% of GDP, with debt hitting 115.6% of GDP.",
+      "figures": [
+        "prime_minister",
+        "sec_economy",
+        "opposition_left",
+        "opposition_rn",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We must restore credibility to our public finances while protecting our social model.",
+        "opposition_left": "This budget attacks public services and leaves citizens to pay for corporate tax breaks.",
+        "opposition_rn": "The government is not doing enough to curb immigration-driven welfare costs.",
+        "elites": "Deficit discipline at last—now ensure the cuts don't throttle growth."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_03_teacher_reform",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "Teacher Training Reform Relaunched",
+      "fact": "On March 28, 2025, Prime Minister François Bayrou and Education Minister Elisabeth Borne relaunched the reform of initial teacher training, aiming to advance teaching recruitment competitions from bac+5 to bac+3 to address severe recruitment difficulties.",
+      "touches": [
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Lower the academic requirements for teachers to solve the severe recruitment crisis, or maintain high standards despite growing staff shortages and classroom closures.",
+      "hidden_info": "Lowering the bac+5 requirement risks devaluing the teaching profession and sparking massive strikes, as seen in early 2026.",
+      "figures": [
+        "prime_minister"
+      ],
+      "stakeholder_positions": {
+        "opposition_left": "Lowering the recruitment level to bac+3 is a degradation of the teaching profession and will not solve the root problem of low wages.",
+        "voice": "We need teachers in our classrooms, but we also need them to be properly trained."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_04_prison_attacks",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Coordinated Drug Gang Attacks on Prisons",
+      "fact": "Starting April 13, 2025, a wave of coordinated arson and automatic weapon attacks targeted at least seven French prisons and prison staff housing. Justice Minister Gérald Darmanin labeled the attacks 'terrorist' acts linked to the government's crackdown on drug trafficking.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "institutional_stability"
+      ],
+      "dilemma": "Escalate the anti-drug crackdown to assert state authority despite the risk of further violent retaliation from heavily-armed cartels.",
+      "hidden_info": "The full extent of the drug cartels' infiltration into French prison systems and their capacity for coordinated violence was initially unknown.",
+      "figures": [
+        "interior",
+        "prime_minister"
+      ],
+      "stakeholder_positions": {
+        "interior": "These are acts of intimidation by drug traffickers; the state will never yield to such terrorist methods.",
+        "voice": "If the government cannot protect our prisons, how can it protect our neighborhoods?"
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_04_mercosur_pressure",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Lula's Appeal on Mercosur Trade Deal",
+      "fact": "In April 2025, Brazilian President Lula da Silva publicly appealed to Emmanuel Macron to 'open your heart' to the EU-Mercosur trade deal, arguing it was the best response to US tariff protectionism. France remained the deal's strongest European opponent, though its united front began to show cracks.",
+      "touches": [
+        "economy",
+        "international_power",
+        "social_cohesion"
+      ],
+      "dilemma": "Veto the Mercosur deal to protect French farmers from South American agricultural competition, or concede to strategic EU pressure to diversify trade away from the US.",
+      "hidden_info": "The European Commission would later launch the deal's ratification in September despite French opposition.",
+      "figures": [
+        "foreign_leader",
+        "eu",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "My dear Macron, open your heart a little bit to this possibility of concluding this agreement.",
+        "eu": "The global balance is shifting, and we Europeans need new trading partners very quickly.",
+        "voice": "We cannot sacrifice our agricultural sovereignty for a geopolitical trade-off.",
+        "elites": "Open markets, yes—but not at the expense of our agricultural sectors."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_06_heatwave",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Early Summer Heatwave and Excess Mortality",
+      "fact": "From June 19 to July 6, 2025, France experienced a severe early heatwave affecting 60 departments and 74% of the population. It caused at least 480 excess deaths, primarily among those aged 75 and older.",
+      "touches": [
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Implement drastic nationwide emergency measures like forced business closures to protect vulnerable populations, or rely on local plans to avoid economic disruption.",
+      "hidden_info": "This was only the first of four heatwaves during the summer; the total seasonal excess mortality and emergency strain would be much higher.",
+      "figures": [
+        "prime_minister"
+      ],
+      "stakeholder_positions": {
+        "voice": "Our elderly are dying in their homes because the state is not doing enough to protect them from the heat.",
+        "sec_economy": "We must balance public health emergency measures with the economic impact of widespread closures."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "france_2025_07_wildfires",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Violent Summer Wildfires Ravage the South",
+      "fact": "The summer of 2025 was marked by very violent wildfires across southern France, amplified by severe vegetation drought and high danger levels throughout the season. Europe experienced its second most severe heatwave on record in July.",
+      "touches": [
+        "security",
+        "public_services",
+        "economy"
+      ],
+      "dilemma": "Divert significant budgetary resources to wildfire prevention and firefighting, or prioritize the immediate social demands and deficit reduction.",
+      "hidden_info": "The extreme drought conditions would persist, leaving the south vulnerable to further fire outbreaks late into the season.",
+      "figures": [
+        "interior",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "interior": "We are facing a new normal of climate-driven security threats that require permanent resources.",
+        "voice": "Our homes and forests are burning; the state must do more to protect us.",
+        "elites": "Climate chaos threatens southern real estate and tourism revenues—we need resilience investment."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_09_bayrou_fall",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Bayrou Ousted Over Austerity Budget",
+      "fact": "On September 8, 2025, Prime Minister François Bayrou was ousted in a confidence vote by 364 to 194 after calling for €44 billion in budget cuts to tackle the mounting public debt, marking the collapse of France's third government since snap elections.",
+      "touches": [
+        "institutional_stability",
+        "fiscal_health",
+        "approval"
+      ],
+      "dilemma": "Push through the necessary €44 billion in austerity cuts to save the country's finances, knowing it will trigger the fall of the government.",
+      "hidden_info": "Macron's subsequent appointment, Sébastien Lecornu, would also fail to form a stable government, resigning after just 26 days.",
+      "figures": [
+        "prime_minister",
+        "opposition_rn",
+        "opposition_left",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "prime_minister": "The working-age population faces slavery because it is repaying loans light-heartedly taken out by previous generations.",
+        "opposition_left": "We will not accept austerity that punishes the most vulnerable for a crisis they did not create.",
+        "opposition_rn": "The government lacks the courage to make the structural cuts necessary, focusing instead on punishing the French people.",
+        "elites": "Austerity was necessary; this political chaos threatens market confidence and the CAC 40."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_09_palestine_recognition",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "France Formally Recognises Palestinian State",
+      "fact": "On September 23, 2025, President Emmanuel Macron formally recognized the state of Palestine at the UN General Assembly, leading a coalition of Western countries in a diplomatic push for a two-state solution.",
+      "touches": [
+        "international_power",
+        "social_cohesion"
+      ],
+      "dilemma": "Pursue a grand diplomatic gesture on Palestinian statehood to boost France's global standing, risking internal cohesion and alienating key allies like Germany and the US.",
+      "hidden_info": "Key European allies like Germany and Italy refused to join the initiative, limiting its immediate geopolitical impact.",
+      "figures": [
+        "foreign_leader",
+        "eu",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "The time for peace has come; nothing justifies the ongoing war in Gaza.",
+        "eu": "We support a two-state solution but cannot endorse unilateral recognitions that bypass negotiations.",
+        "elites": "Diplomatic grandeur that risks Middle East trade ties—Macron plays a dangerous game."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_10_lecornu_resigns",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "PM Lecornu Resigns After 26 Days",
+      "fact": "On October 6, 2025, Prime Minister Sébastien Lecornu resigned after just 26 days in the role amid further political chaos and falling stocks on the Paris exchange, before accepting a request from Macron to draft a stability plan.",
+      "touches": [
+        "institutional_stability",
+        "economy",
+        "approval"
+      ],
+      "dilemma": "Appoint a technocratic or cross-party figure to stabilize the situation, or call for new elections that might empower the extremes.",
+      "hidden_info": "The markets were reacting violently to the political instability, increasing borrowing costs for the French state.",
+      "figures": [
+        "prime_minister",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "prime_minister": "Being PM is a hard task, but I will work on a plan for the stability of the country.",
+        "opposition_left": "Macron's appointments are merely reshuffling the same failed policies.",
+        "opposition_rn": "Only a dissolution and new elections can give France a legitimate government.",
+        "elites": "Falling stocks demand stability—end this governmental revolving door immediately."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_12_china_visit",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "Macron State Visit to China",
+      "fact": "From December 3 to 5, 2025, President Emmanuel Macron paid a state visit to China at the invitation of Xi Jinping, resulting in a joint statement on seeking constructive solutions for Ukraine and Palestine.",
+      "touches": [
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Align with China on peace frameworks for Ukraine and Palestine to assert France's diplomatic autonomy, risking friction with Western allies.",
+      "hidden_info": "The joint statement's vague language papered over deep disagreements regarding China's support for Russia.",
+      "figures": [
+        "foreign_leader",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "As permanent members of the UN Security Council, France and China are jointly committed to seeking constructive solutions grounded in international law.",
+        "eu": "Engagement with China must not undermine our unified stance on Russia's aggression in Ukraine.",
+        "elites": "Pragmatic engagement with Beijing protects our luxury exports and strategic markets."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_conditional_debt_crisis",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "EU Excessive Deficit Procedure Escalation",
+      "fact": "With the 2025 public deficit reaching 5.1% of GDP and debt at 115.6% of GDP, the EU Council endorsed France's medium-term fiscal-structural plan in January 2025, but failure to meet targets triggers an Excessive Deficit Procedure.",
+      "touches": [
+        "fiscal_health",
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Impose brutal automatic spending cuts to comply with EU fiscal rules, or defy the Commission and face massive financial penalties.",
+      "hidden_info": "The political fragmentation in the National Assembly makes passing any further austerity budgets nearly impossible without triggering another censure motion.",
+      "figures": [
+        "eu",
+        "sec_economy",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "eu": "France must respect its commitments to reduce the deficit under the reformed economic governance framework.",
+        "sec_economy": "We are committed to reducing the deficit, but we cannot do it at the expense of economic growth.",
+        "opposition_left": "We will not let Brussels dictate austerity that ruins our social model.",
+        "elites": "The EU procedure is justified—5.1% deficit spooks investors and raises our borrowing costs."
+      },
+      "preconditions": {
+        "fiscal_health": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "france_2025_conditional_health_collapse",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Hospital System Saturation Point",
+      "fact": "Despite a EUR 1 billion funding increase in the 2025 budget, the healthcare deficit was set to exceed EUR 22 billion, leaving hospitals in critical condition with staff shortages and emergency room closures.",
+      "touches": [
+        "public_services",
+        "social_cohesion"
+      ],
+      "dilemma": "Enforce mandatory service obligations for medical staff to keep emergency rooms open, or accept localized hospital closures.",
+      "hidden_info": "The summer heatwaves would cause a 2.9-fold increase in emergency room visits, pushing the fragile system past its breaking point.",
+      "figures": [
+        "prime_minister",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "voice": "We cannot find doctors, and the emergency rooms are closed; the system is broken.",
+        "opposition_left": "The government's billion-euro increase is a band-aid on a hemorrhaging system; we need massive reinvestment.",
+        "elites": "A billion is a drop; privatization partnerships must bridge the healthcare funding gap."
+      },
+      "preconditions": {
+        "public_services": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "france_2025_conditional_mercosur_ratification",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "EU Mercosur Deal Ratification Showdown",
+      "fact": "In September 2025, the European Commission launched the ratification process for the EU-Mercosur agreement despite France's united front against it, arguing it threatened agricultural sovereignty.",
+      "touches": [
+        "economy",
+        "international_power",
+        "social_cohesion"
+      ],
+      "dilemma": "Use France's veto power to kill the EU-Mercosur deal and protect farmers, or concede to the EU majority to avoid isolation and trade retaliation.",
+      "hidden_info": "The Commission included stronger oversight clauses to try to appease French concerns, but agricultural lobbies remained firmly opposed.",
+      "figures": [
+        "eu",
+        "opposition_rn",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "eu": "This deal is the best response our regions can give in the face of an uncertain context created by unilateralism and tariff protectionism.",
+        "opposition_rn": "We must defend French farmers against this unfair competition that threatens our food sovereignty.",
+        "sec_economy": "We cannot blindly accept a deal that sacrifices our agriculture, but we must consider our geopolitical trade diversification.",
+        "elites": "Brussels overreach threatens our industries—we need protective clauses, not surrender."
+      },
+      "preconditions": {
+        "economy": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "france_2025_03_eu_defence_package",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "EU Adopts €150 Billion SAFE Defence Loan Package",
+      "fact": "On March 4, 2025, the European Commission announced a major defence package, and on May 27, the Council formally adopted the Security Action for Europe (SAFE) instrument, a €150 billion financial boost for joint defence procurement to address capability gaps and strengthen EU readiness.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "international_power",
+        "security"
+      ],
+      "dilemma": "Commit French fiscal resources and industrial sovereignty to joint EU defence procurement to rapidly rearm, or protect domestic defence champions and risk slower European rearmament.",
+      "hidden_info": "The full extent of French industrial capacity constraints and whether joint procurement would primarily benefit German or other EU manufacturers over French ones.",
+      "figures": [
+        "prime_minister",
+        "sec_economy",
+        "eu"
+      ],
+      "stakeholder_positions": {
+        "eu": "We must pool our resources and act decisively to close capability gaps and boost our defence industrial base.",
+        "sec_economy": "Joint loans risk French fiscal exposure, but we cannot afford to let Europe remain militarily vulnerable.",
+        "elites": "A boon for the European defence market, provided French companies capture their fair share of the contracts."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_05_franco_german_reset",
+      "type": "anchored",
+      "month": 5,
+      "title_seed": "Franco-German Reset Summit on European Sovereignty",
+      "fact": "On May 7, 2025, Emmanuel Macron and the German Chancellor agreed on a comprehensive agenda to reset the Franco-German relationship, focusing on security, competitiveness, and convergence to strengthen a more sovereign Europe amidst war and global trade threats.",
+      "touches": [
+        "economy",
+        "international_power",
+        "institutional_stability"
+      ],
+      "dilemma": "Concede to German demands for fiscal discipline and supply-side competitiveness reforms to secure a unified front, or insist on French strategic priorities like joint debt and strategic protectionism at the risk of continued gridlock.",
+      "hidden_info": "Internal German coalition resistance to French fiscal proposals, and whether the 'reset' would translate into binding treaty changes or remain symbolic.",
+      "figures": [
+        "prime_minister",
+        "foreign_leader",
+        "eu"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "Europe must be competitive and fiscally sound; we will only support strategic autonomy if it means structural reform.",
+        "prime_minister": "A strong Europe requires a strong Franco-German engine; we must find common ground on defence and industry.",
+        "opposition_rn": "This reset sacrifices French sovereignty to German economic diktat."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "france_2025_07_us_eu_trade_deal",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "EU-US Trade Deal Signed Amid Transatlantic Tensions",
+      "fact": "On July 27, 2025, the European Commission and the United States signed a landmark transatlantic trade deal in Turnberry, Scotland, setting US tariffs on EU imports at 15 percent in exchange for the bloc not applying levies on American exports.",
+      "touches": [
+        "economy",
+        "international_power",
+        "social_cohesion"
+      ],
+      "dilemma": "Endorse the deal to stabilize trade relations and avert a wider transatlantic trade war, or oppose it to protect French agricultural and industrial sectors from unequal competition and 15% tariffs.",
+      "hidden_info": "The secret side-letters regarding agricultural quotas, and the imminent US threats regarding Greenland that would soon jeopardize the entire pact.",
+      "figures": [
+        "eu",
+        "foreign_leader",
+        "sec_economy",
+        "opposition_rn"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "This is a great deal for America, bringing fairness to transatlantic trade.",
+        "eu": "We have secured stability and prevented a devastating trade war with the US.",
+        "opposition_rn": "This deal sells out our farmers and industries to American interests; France must reject it."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_09_coalition_of_willing",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "26 Nations Pledge Reassurance Force for Ukraine",
+      "fact": "On September 4, 2025, Emmanuel Macron and Keir Starmer hosted a 'coalition of the willing' summit in Paris where 26 nations formally committed operational and financial contributions to a post-war reassurance force for Ukraine, including troops on land, sea, and air.",
+      "touches": [
+        "security",
+        "international_power",
+        "approval"
+      ],
+      "dilemma": "Commit French troops and military assets to a post-war reassurance force in Ukraine to guarantee European security, or limit contributions to equipment to avoid risking direct escalation with Russia and French casualties.",
+      "hidden_info": "The exact rules of engagement for the reassurance force, and whether the US would provide a security backstop for European troops on the ground.",
+      "figures": [
+        "foreign_leader",
+        "prime_minister",
+        "interior"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "We need concrete security guarantees and troops on the ground to deter future Russian aggression.",
+        "prime_minister": "France will stand with Ukraine, but we must be clear-eyed about the risks of escalation with a nuclear power.",
+        "opposition_left": "Sending troops to Ukraine risks dragging France into an endless war; we need diplomatic solutions only."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_09_iran_snapback_sanctions",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "E3 Triggers Snapback Sanctions on Iran",
+      "fact": "On September 18, 2025, Emmanuel Macron declared the snapback of UN sanctions on Iran a 'done deal' due to Tehran's non-serious negotiations. On September 28, the E3 (France, UK, Germany) formally activated the snapback mechanism to reimpose international sanctions.",
+      "touches": [
+        "security",
+        "international_power",
+        "economy"
+      ],
+      "dilemma": "Trigger the snapback mechanism to enforce non-proliferation norms and pressure Iran, knowing it ends the JCPOA framework and removes international monitoring oversight, or keep the diplomatic channel open at the risk of Iran advancing its nuclear program unchecked.",
+      "hidden_info": "The full status of Iran's covert nuclear advancements and the likelihood that snapback would push Iran to expel all IAEA inspectors.",
+      "figures": [
+        "foreign_leader",
+        "prime_minister",
+        "eu"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "Iran has not been serious; we must restore UN sanctions to prevent a nuclear-armed Iran.",
+        "prime_minister": "We cannot allow Iran to acquire a nuclear weapon; snapback is a last resort but a necessary one.",
+        "opposition_left": "Killing the Iran deal risks regional war and cuts off diplomatic off-ramps for de-escalation."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "france_2025_09_un_two_state_solution",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Macron Co-Chairs UN Summit on Two-State Solution",
+      "fact": "On September 22, 2025, Emmanuel Macron and Saudi Crown Prince Mohammed bin Salman co-chaired a high-level conference at the UN on the implementation of the Two-State Solution, resulting in the adoption of the New York Declaration by 142 States.",
+      "touches": [
+        "international_power",
+        "social_cohesion",
+        "security"
+      ],
+      "dilemma": "Push aggressively for a binding international framework for Palestinian statehood that angers Israel and the US, or settle for a symbolic declaration that maintains transatlantic relations but fails to change facts on the ground.",
+      "hidden_info": "The exact security guarantees Israel would demand in return for recognizing a Palestinian state, and the depth of US opposition to the French-led initiative.",
+      "figures": [
+        "foreign_leader",
+        "press",
+        "opposition_rn"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "The international community must deliver a political horizon for the Palestinians; the status quo is unsustainable.",
+        "opposition_rn": "This unilateral recognition endangers French citizens and plays into the hands of extremist groups.",
+        "press": "Macron positions France as the moral compass of the West, but risks a severe diplomatic breach with Washington and Tel Aviv."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "france_2025_conditional_greenland_trade_war",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "US Trade War Over Greenland Threats",
+      "fact": "Following US threats to impose 25% tariffs on countries opposing its bid to acquire Greenland, European leaders including Macron condemned the threats as unacceptable, with France and Germany pushing the EU to ready its Anti-Coercion Instrument against the US.",
+      "touches": [
+        "economy",
+        "international_power",
+        "institutional_stability"
+      ],
+      "dilemma": "Escalate against US economic coercion by deploying the EU's Anti-Coercion Instrument to defend European sovereignty, or de-escalate to protect French exporters from devastating 25% tariffs and save the transatlantic trade deal.",
+      "hidden_info": "The internal economic modeling of how 25% US tariffs would impact French luxury, agriculture, and aerospace sectors, and whether other EU states would fold under US pressure.",
+      "figures": [
+        "foreign_leader",
+        "eu",
+        "sec_economy",
+        "opposition_rn"
+      ],
+      "stakeholder_positions": {
+        "foreign_leader": "If Europe opposes our acquisition of Greenland, we will hit you with massive tariffs.",
+        "eu": "We must defend European sovereignty and explore the Anti-Coercion Instrument; this cannot stand.",
+        "sec_economy": "A 25% tariff would devastate our exporters; we must tread carefully and not let pride destroy our economy.",
+        "opposition_rn": "France must stand firm against American bullying, even if it means short-term economic pain."
+      },
+      "preconditions": {
+        "international_power": ">60"
+      },
+      "branchable": true
+    },
+    {
+      "id": "france_2025_conditional_eu_us_trade_collapse",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "EU-US Trade Deal Collapses Amid Tariffs",
+      "fact": "The European Parliament paused ratification of the landmark EU-US trade deal after Trump imposed new tariffs linked to the Greenland crisis, with EPP leader Manfred Weber stating the Parliament would not vote for the pact under escalating tensions.",
+      "touches": [
+        "economy",
+        "international_power",
+        "fiscal_health"
+      ],
+      "dilemma": "Accept the collapse of the transatlantic trade pact and pivot towards strategic autonomy and protectionism, or make humiliating concessions to Washington to salvage the agreement and protect French export markets.",
+      "hidden_info": "Whether the US would accept a face-saving compromise, or if the collapse was a deliberate strategy to economically decouple from Europe.",
+      "figures": [
+        "foreign_leader",
+        "eu",
+        "sec_economy",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "eu": "We cannot ratify a trade deal with a partner that uses economic coercion against our member states.",
+        "elites": "Losing the US market would be catastrophic for our bottom lines; we need a deal, any deal, to stabilize trade.",
+        "sec_economy": "We must seek alternative markets and strengthen our internal market rather than submit to coercion.",
+        "foreign_leader": "Europe needs this deal more than America does; they will come crawling back."
+      },
+      "preconditions": {
+        "economy": "<45"
+      },
+      "branchable": true
+    }
+  ],
+  "_note": "France 2025 deck via Ollama glm-5.1 + web_search. REVIEW before use."
+}

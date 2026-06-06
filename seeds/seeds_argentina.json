@@ -1,0 +1,639 @@
+{
+  "events": [
+    {
+      "id": "argentina_2025_02_health_cuts",
+      "type": "anchored",
+      "month": 2,
+      "title_seed": "Health workers and patients march against healthcare cuts",
+      "fact": "On February 28, 2025, more than 100 health groups organized a country-wide mobilization against President Milei's healthcare policies, which triggered drug shortages and staff crises. The libertarian government had sliced the health budget by half in real terms, halted free cancer drugs, and fired 2,000 health ministry employees.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "approval"
+      ],
+      "dilemma": "Restore some health funding and risk breaking fiscal targets demanded by the IMF, or maintain the 'chainsaw' cuts and face escalating protests and a collapsing public health system.",
+      "hidden_info": "The full extent of the drug shortages and hospital staffing crises was still unfolding, with the potential for highly visible tragedies if the system collapsed further.",
+      "figures": [
+        "sec_economy",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "Fiscal balance is non-negotiable; we cannot return to the spending that caused the crisis.",
+        "voice": "They are letting our hospitals bleed to death while people cannot afford basic medicine.",
+        "elites": "Necessary adjustment; the state cannot subsidize inefficiency when fiscal discipline is paramount."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_03_bahia_blanca_floods",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "Catastrophic flooding strikes Bahía Blanca",
+      "fact": "On March 7, 2025, Bahía Blanca and neighboring cities in the Province of Buenos Aires were flooded after unusually intense rainfall. The disaster caused serious material damage, thousands of evacuations, at least 17 deaths, and over 200 disappearances.",
+      "touches": [
+        "security",
+        "public_services",
+        "economy",
+        "social_cohesion"
+      ],
+      "dilemma": "Deploy massive federal emergency funds and resources to Bahía Blanca, breaking strict austerity rules, or maintain fiscal discipline and leave the provincial response primarily to Governor Kicillof, risking accusations of partisan neglect.",
+      "hidden_info": "The final death toll and the extent of the infrastructure destruction were still unknown, as was whether the provincial government could handle the crisis without federal bailout funds.",
+      "figures": [
+        "sec_economy",
+        "sec_security",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We must not let an emergency become an excuse to bust the fiscal surplus.",
+        "sec_security": "The state's security forces must be deployed to maintain order and assist evacuations immediately.",
+        "opposition": "The national government is abandoning the people of Buenos Aires province for political reasons.",
+        "elites": "Tragic, but infrastructure investment requires a strong export economy to fund it."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_03_pension_protest_repression",
+      "type": "anchored",
+      "month": 3,
+      "title_seed": "Pensioner protests met with state violence",
+      "fact": "On March 12, 2025, a weekly pensioners' protest in front of Congress was met with a heavy police crackdown, leaving 16 people hospitalized and a photographer gravely injured. President Milei later defended Security Minister Patricia Bullrich, declaring that 'the sons of bitches with rags are the bad ones' and warning of more repression.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Escalate security protocols to crush disruptive protests and uphold public order, or de-escalate to avoid international condemnation and domestic radicalization.",
+      "hidden_info": "The severity of the photographer's injuries and the subsequent legal actions against the security forces were not yet fully apparent.",
+      "figures": [
+        "sec_security",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_security": "We will not take a single step back; those who block streets will face the full force of the law.",
+        "voice": "They could have killed us; we are just asking for a livable pension.",
+        "elites": "Order must prevail; unchecked social spending bankrupts the nation."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_04_imf_deal",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "IMF approves $20 billion Extended Fund Facility",
+      "fact": "On April 11, 2025, the IMF Executive Board approved a US$20 billion Extended Fund Facility for Argentina, marking the 23rd IMF rescue for the country. The program backed Milei's draconian spending cuts as a cornerstone to reduce rampant inflation.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "international_power"
+      ],
+      "dilemma": "Accept the IMF's strict fiscal targets and structural reforms to secure the $20 billion lifeline, or push back on austerity conditions to preserve domestic political capital.",
+      "hidden_info": "The IMF's internal assessment noted that Argentina's celebrated fiscal surplus actually turned into a deficit once capitalized interest was included, a vulnerability that could derail the program.",
+      "figures": [
+        "sec_economy",
+        "imf",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "This program is the vote of confidence Argentina needs to finally defeat inflation.",
+        "imf": "Reform momentum must continue; we expect strict adherence to fiscal targets and labor reforms.",
+        "elites": "Finally—dollar liquidity and macro-orthodoxy to anchor our portfolios."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_06_pension_veto",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Mass mobilization against Milei's pension veto",
+      "fact": "On June 4, 2025, tens of thousands of Argentines marched outside the National Congress to demand a change in ultra-neoliberal policies after Milei vetoed a pension increase approved by the legislature. Milei warned he would veto the 'demagogic and populist' 7% increase again to protect fiscal balance.",
+      "touches": [
+        "economy",
+        "social_cohesion",
+        "fiscal_health",
+        "approval"
+      ],
+      "dilemma": "Veto the pension increase to maintain the fiscal surplus and appease the IMF, or concede to avoid alienating retirees and middle-class voters ahead of the midterms.",
+      "hidden_info": "The exact impact of the veto on Milei's midterm polling was uncertain, as poverty rates continued to spike alongside inflation.",
+      "figures": [
+        "sec_economy",
+        "voice",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We cannot spend what we don't have; fiscal balance is the only path to stability.",
+        "voice": "They are leaving pensioners in poverty while boasting about a surplus.",
+        "opposition": "This veto is an attack on the most vulnerable; we will override it.",
+        "elites": "The veto protects the fiscal surplus; markets demand structural reform, not populism."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_07_delegated_decrees",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Flurry of decrees ends year of delegated powers",
+      "fact": "On July 8, 2025, President Milei issued a flurry of decrees cutting or modifying over 20 state offices and institutions regulating industry, agriculture, transport, and energy. This occurred just before the expiration of the one-year period of delegated legislative powers granted by Congress in 2024.",
+      "touches": [
+        "institutional_stability",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Use the final hours of delegated powers to aggressively deregulate and shrink the state, or hold off to avoid institutional backlash and a potential Supreme Court challenge.",
+      "hidden_info": "The legal durability of these last-minute decrees was uncertain, as opposition groups were already preparing constitutional challenges.",
+      "figures": [
+        "chief_advisor",
+        "sec_economy",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "chief_advisor": "We must use every legal tool to destroy the leftist state apparatus before we lose the power to do so.",
+        "sec_economy": "Deregulation is essential to lower costs and stimulate the economy.",
+        "elites": "Deregulation is pure profit; slashing red tape unlocks agro-export competitiveness."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "argentina_2025_07_hospital_crisis",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Garrahan Hospital staff march as health system bleeds",
+      "fact": "In July 2025, doctors and staff at the Garrahan Children's Hospital marched to the Obelisk demanding fair pay and better conditions. The crisis was emblematic of a public health system 'bleeding to death' after Milei's subsidy-slashing cuts, which had halted free cancer drugs and left hospitals crumbling.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "approval"
+      ],
+      "dilemma": "Offer a pay bonus to Garrahan staff to settle the immediate dispute, or hold the line on public spending to maintain the austerity principle.",
+      "hidden_info": "The government was internally debating whether to question the hospital's staffing levels publicly, a risky move that could further inflame public anger.",
+      "figures": [
+        "sec_economy",
+        "voice"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We cannot make exceptions for state employees without busting the fiscal target.",
+        "voice": "Working conditions are unsustainable; we are saving lives while our own salaries disappear."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_08_hospital_veto",
+      "type": "anchored",
+      "month": 8,
+      "title_seed": "Milei vows to veto public hospital funding",
+      "fact": "In August 2025, President Milei vowed to veto a congressional bill providing more funding for struggling public hospitals, risking a midterm backlash. The veto came as polls showed his legislative control was facing a stiff challenge.",
+      "touches": [
+        "public_services",
+        "fiscal_health",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Veto the hospital funding to maintain fiscal discipline and IMF confidence, or sign the bill to boost midterm election prospects and avert a healthcare collapse.",
+      "hidden_info": "Internal polling suggested the veto could cost Milei crucial moderate votes in the upcoming October midterms.",
+      "figures": [
+        "sec_economy",
+        "chief_advisor",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We must veto this populist spending to protect the fiscal surplus.",
+        "chief_advisor": "The base loves the chainsaw, but we risk losing the center if hospitals visibly collapse.",
+        "opposition": "Vetoing healthcare funds is a crime against the Argentine people.",
+        "elites": "Public spending must shrink; private healthcare responds to market signals."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_09_university_cuts_protest",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Vast protests against university budget cuts",
+      "fact": "In September 2025, massive crowds marched across Argentina demanding the government implement a university funding law. Government budget allocations to national universities had fallen 45.6% since Milei took office, prompting the fourth 'Federal University March'.",
+      "touches": [
+        "public_services",
+        "social_cohesion",
+        "approval",
+        "fiscal_health"
+      ],
+      "dilemma": "Comply with the university funding law passed by Congress, or continue defying it to maintain the chainsaw economics approach.",
+      "hidden_info": "The Supreme Court was preparing to rule on the government's noncompliance with the funding law, a decision that could force Milei's hand.",
+      "figures": [
+        "sec_economy",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We will not fund the leftist indoctrination centers with money we don't have.",
+        "opposition": "The government is engaged in a flagrant act of unconstitutionality by defunding public education.",
+        "elites": "Subsidized education distorts the market; fiscal balance matters more."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_10_us_swap_line",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "US kicks off controversial $20 billion financial rescue",
+      "fact": "In October 2025, the US Treasury, under Secretary Scott Bessent, purchased Argentine pesos and finalized a $20 billion swap line to stabilize Argentina's currency crisis. President Trump explicitly warned that the US would not 'waste our time' helping Argentina if Milei lost the upcoming midterms.",
+      "touches": [
+        "economy",
+        "international_power",
+        "institutional_stability"
+      ],
+      "dilemma": "Embrace the US financial rescue and Trump's political backing, cementing the economic stabilization but appearing as a foreign puppet, or distance yourself to preserve national sovereignty.",
+      "hidden_info": "The swap line's success depended on market confidence, which could collapse if the midterm results weakened Milei's mandate.",
+      "figures": [
+        "sec_economy",
+        "imf",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "This unprecedented US backing validates our economic model and guarantees stability.",
+        "imf": "We support the swap line but insist that Argentina must still meet its structural reform targets.",
+        "elites": "Dollar access secures our trades; this swap line is a liquidity lifeline."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_10_midterm_elections",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "Milei wins conclusive midterm election victory",
+      "fact": "On October 26, 2025, Argentine President Javier Milei's party scored a decisive victory in the midterm legislative elections, expanding his influence in Congress despite growing anger over harsh austerity measures.",
+      "touches": [
+        "approval",
+        "institutional_stability",
+        "economy"
+      ],
+      "dilemma": "Use the strengthened mandate to accelerate radical libertarian reforms, or moderate the approach to consolidate broader institutional support.",
+      "hidden_info": "Despite the electoral victory, La Libertad Avanza still held under 50% of the Congress, meaning compromise would still be necessary for major legislation.",
+      "figures": [
+        "chief_advisor",
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "chief_advisor": "The people have spoken; we must double down on the chainsaw.",
+        "opposition": "The election was a reflection of US interference, not an endorsement of poverty.",
+        "elites": "Mandate secured; now accelerate the liberalization and privatization agenda."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_11_libra_scandal",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Congressional committee links Milei to $LIBRA scam",
+      "fact": "On November 19, 2025, an Argentine congressional committee concluded that President Milei played a key role in the alleged $LIBra cryptocurrency scam, using his presidential role to spread it. The report stated that Parliament must evaluate whether Milei committed 'poor performance in the exercise of his duties.'",
+      "touches": [
+        "institutional_stability",
+        "approval",
+        "economy"
+      ],
+      "dilemma": "Cooperate with the congressional investigation to clear his name, or stonewall and delegitimize the opposition-led committee as a political witch hunt.",
+      "hidden_info": "The governing party was questioning the legality of the committee's conclusions, and it remained unclear if the opposition could gather enough votes for a formal censure.",
+      "figures": [
+        "chief_advisor",
+        "opposition",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "chief_advisor": "This is a kangaroo court by the corrupt establishment trying to destroy us.",
+        "opposition": "The president provided indispensable cooperation for a fraudulent scheme.",
+        "press": "The report raises serious questions about the president's inner circle and their ties to crypto promoters.",
+        "elites": "A distraction; keep focus on the export boom and capital inflows."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_11_milei_trump_deal",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Milei-Trump deal threatens Brazilian market share",
+      "fact": "On November 13, 2025, the US and Argentina announced a trade and investment cooperation agreement. The deal alarmed Brazilian industry leaders, who warned that it could displace Brazilian manufactured goods—especially cars—in the Argentine market.",
+      "touches": [
+        "economy",
+        "international_power"
+      ],
+      "dilemma": "Deepen the US trade pact to secure investment and the swap line, or mitigate the deal to avoid destroying relations with Argentina's largest trading partner, Brazil.",
+      "hidden_info": "Mercosur rules technically prohibited bilateral deals of this nature, raising the risk of formal complaints from Brazil and Uruguay.",
+      "figures": [
+        "sec_economy",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "This deal brings vital US investment and breaks the Mercosur stranglehold on our economy.",
+        "elites": "Excellent—open markets mean more agro-exports and US investment capital."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_12_mercosur_venezuela_clash",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "Milei and Lula clash over US-Venezuela tensions at Mercosur",
+      "fact": "At the December 20, 2025 Mercosur summit in Foz do Iguaçu, Milei hailed US pressure on Venezuela, while Brazil's Lula warned against US military action. Argentina led a joint statement on restoring democracy in Venezuela, but Brazil and Uruguay declined to sign it, fearing it could support US military intervention.",
+      "touches": [
+        "international_power",
+        "social_cohesion"
+      ],
+      "dilemma": "Push the aggressive anti-Venezuela stance to align with the US and domestic anti-communist base, or soften the rhetoric to preserve the bloc's unity and trade relations with Brazil.",
+      "hidden_info": "China was simultaneously signaling long-term interest in a Mercosur trade deal, making the bloc's unity crucial for future economic opportunities.",
+      "figures": [
+        "opposition",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "opposition": "Milei is isolating Argentina in the region by acting as Trump's proxy.",
+        "elites": "Align with Washington; US access is worth more than regional blocs."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_cond_repression_escalation",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "Security forces double down on protest repression",
+      "fact": "Throughout 2025, the repression of social protests doubled compared to the previous year. In 34 of 79 monitored mobilizations, police used violence, and arbitrary detentions increased by 77%.",
+      "touches": [
+        "security",
+        "social_cohesion",
+        "approval",
+        "institutional_stability"
+      ],
+      "dilemma": "Order Patricia Bullrich to intensify the crackdown to permanently break the protest movement, or pull back to avoid international sanctions and domestic radicalization.",
+      "hidden_info": "The Comisión Provincial por la Memoria was compiling evidence of systematic abuses that could be used in future human rights cases against the government.",
+      "figures": [
+        "sec_security",
+        "voice",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_security": "We will not tolerate leftist street violence; order will be maintained at all costs.",
+        "voice": "They are criminalizing poverty and social demands; we will not be silenced.",
+        "elites": "Stability attracts foreign capital; order is the prerequisite for growth."
+      },
+      "preconditions": {
+        "social_cohesion": "<40"
+      },
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_cond_imf_fiscal_gap",
+      "type": "conditional",
+      "month": null,
+      "title_seed": "IMF flags hidden fiscal deficit and pushes for tax reform",
+      "fact": "The IMF endorsed Milei's economic course but pushed back on the celebrated fiscal surplus, noting it turned into a deficit once capitalized interest was included. The Fund called for a tax reform and faster reserve accumulation ahead of the 2027 vote.",
+      "touches": [
+        "economy",
+        "fiscal_health",
+        "international_power"
+      ],
+      "dilemma": "Implement the IMF's requested tax reform to secure the next $1 billion disbursement, or resist to avoid political suicide ahead of elections.",
+      "hidden_info": "The IMF staff privately doubted the sustainability of the fiscal surplus without new revenue measures, a fact that could spook bond markets if leaked.",
+      "figures": [
+        "sec_economy",
+        "imf",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "Our fiscal surplus is real and historic; we will not return to punitive taxation.",
+        "imf": "Argentina needs a sustainable tax base; the current surplus is an accounting artifact.",
+        "elites": "Broaden the tax base, cut more spending, but keep the export engine running."
+      },
+      "preconditions": {
+        "fiscal_health": ">60"
+      },
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_04_trump_tariffs_mar_a_lago",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "Milei doubles down on Trump amid global tariff shock",
+      "fact": "In April 2025, as world leaders reacted with retaliation to Donald Trump's sweeping tariffs on U.S. imports, Javier Milei flew to Mar-a-Lago to attend the 'American Patriot' gala, praising Trump and declaring 'Make Argentina Great Again!' while the rest of the world reeled from the trade shock.",
+      "touches": [
+        "international_power",
+        "economy",
+        "approval"
+      ],
+      "dilemma": "Publicly embrace Trump's tariff policies to secure vital U.S. backing and risk Argentine exports being caught in global retaliation, or distance Argentina to protect trade ties with affected partners.",
+      "hidden_info": "The full extent of the economic disruption the tariffs would cause to global supply chains and emerging market demand.",
+      "figures": [
+        "sec_economy",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "We must align with Washington to secure our financial lifeline, regardless of the global trade shock.",
+        "elites": "This alignment risks our export markets in Europe and China, but a U.S. bailout is our only path to stability.",
+        "press": "The President is prioritizing an ideological bromance over the nation's economic pragmatism."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_04_imf_extended_fund_facility",
+      "type": "anchored",
+      "month": 4,
+      "title_seed": "IMF approves new $20 billion Extended Fund Facility",
+      "fact": "On April 11, 2025, the IMF Executive Board approved a new four-year Extended Arrangement under the Extended Fund Facility for Argentina, totaling roughly US$20 billion, with an immediate disbursement of US$12 billion to bolster Central Bank reserves.",
+      "touches": [
+        "international_power",
+        "fiscal_health",
+        "economy"
+      ],
+      "dilemma": "Accept the IMF's stringent conditions—including fiscal targets and structural reforms—to secure the massive bailout, or reject them to preserve domestic policy autonomy at the risk of a currency collapse.",
+      "hidden_info": "The IMF staff's internal assessment noting that strong domestic demand and import easing would make reserve accumulation targets extremely difficult to meet.",
+      "figures": [
+        "sec_economy",
+        "imf",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "This program is the vital oxygen our reserves need; we must meet every target.",
+        "imf": "We are providing unprecedented support, but the fiscal adjustment and reserve accumulation must be rigorous.",
+        "opposition": "This is just a new debt cycle that mortgages the country's future under the guise of stabilization."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_06_embassy_jerusalem",
+      "type": "anchored",
+      "month": 6,
+      "title_seed": "Milei announces embassy move to West Jerusalem",
+      "fact": "On June 11, 2025, during a state visit to Israel, President Milei addressed the Knesset and announced Argentina would move its embassy from Herzliya to West Jerusalem in 2026, embracing Prime Minister Benjamin Netanyahu.",
+      "touches": [
+        "international_power",
+        "social_cohesion",
+        "approval"
+      ],
+      "dilemma": "Fulfill a core ideological promise and solidify a strategic alliance with Israel and the U.S., or maintain the status quo to avoid alienating Arab trade partners and sparking domestic unrest among Muslim and pro-Palestinian groups.",
+      "hidden_info": "The exact diplomatic and trade repercussions from Arab states were uncertain, though the symbolic break with international consensus was guaranteed.",
+      "figures": [
+        "vice_president",
+        "press",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "vice_president": "This is a defense of Western civilization and Judeo-Christian values against terrorism.",
+        "opposition": "This reckless move isolates Argentina diplomatically and endangers our relations with the Arab world.",
+        "press": "The move trades diplomatic standing in the broader world for ideological alignment with Washington and Tel Aviv."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_07_mercosur_iron_curtain",
+      "type": "anchored",
+      "month": 7,
+      "title_seed": "Milei warns Mercosur is becoming an 'iron curtain'",
+      "fact": "At the July 2025 Mercosur summit in Buenos Aires, Milei warned that the bloc risked becoming an 'iron curtain' restricting trade, directly clashing with Brazil's President Lula, who called the bloc a 'refuge' from foreign trade wars.",
+      "touches": [
+        "international_power",
+        "economy",
+        "social_cohesion"
+      ],
+      "dilemma": "Push to deregulate Mercosur and align it with U.S. trade policies, risking a rupture with Brazil, or accommodate Brazilian protectionism to preserve regional stability.",
+      "hidden_info": "Brazil's refusal to hold a bilateral meeting signaled deep diplomatic frostiness that could jeopardize Argentine export access.",
+      "figures": [
+        "sec_economy",
+        "press",
+        "elites"
+      ],
+      "stakeholder_positions": {
+        "elites": "We need open markets, but we cannot afford to lose Brazil as our primary trading partner.",
+        "sec_economy": "Mercosur's rules hold back our competitiveness; we must pivot to global markets.",
+        "press": "The ideological standoff with Lula risks leaving Argentina isolated on the continent."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "argentina_2025_09_un_general_assembly",
+      "type": "anchored",
+      "month": 9,
+      "title_seed": "Milei and Trump showcase alliance at UN General Assembly",
+      "fact": "On September 23, 2025, President Milei met with Donald Trump at the 80th United Nations General Assembly in New York, showcasing their alliance as the U.S. was preparing an extraordinary financial rescue for Argentina.",
+      "touches": [
+        "international_power",
+        "approval",
+        "economy"
+      ],
+      "dilemma": "Leverage the highly visible U.S. alliance to project international power and secure financial backing, or downplay the dependency to avoid being perceived as a subordinate client state.",
+      "hidden_info": "The U.S. was simultaneously negotiating the terms of a $20 billion swap line behind closed doors, linking political alignment to financial survival.",
+      "figures": [
+        "chief_advisor",
+        "press",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "chief_advisor": "The visual of the two leaders together is our strongest asset in projecting global relevance.",
+        "opposition": "Milei has turned Argentina into a vassal state dependent on Trump's goodwill.",
+        "press": "The alliance is a double-edged sword: it brings dollars but costs us sovereignty."
+      },
+      "preconditions": {},
+      "branchable": false
+    },
+    {
+      "id": "argentina_2025_10_us_treasury_swap_line",
+      "type": "anchored",
+      "month": 10,
+      "title_seed": "US Treasury finalizes $20 billion currency swap",
+      "fact": "In October 2025, the U.S. Treasury finalized terms for a $20 billion currency swap line with Argentina's Central Bank, with Secretary Scott Bessent announcing the U.S. would purchase Argentine pesos to stabilize the currency ahead of midterm elections.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Accept the unprecedented U.S. bailout to halt the peso run ahead of elections, or reject it to avoid the political stigma of being rescued by a foreign power's direct intervention.",
+      "hidden_info": "The swap line was executed via the Exchange Stabilization Fund, bypassing the U.S. Congress, a mechanism not used at this scale since the 1995 Mexico bailout.",
+      "figures": [
+        "sec_economy",
+        "imf",
+        "press"
+      ],
+      "stakeholder_positions": {
+        "sec_economy": "This is the definitive tool to crush the speculative attack on the peso.",
+        "imf": "We support complementary financial arrangements, but they must not derail the primary program's fiscal targets.",
+        "press": "The U.S. is explicitly using taxpayer dollars to buy pesos to save a foreign government for political reasons."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_11_milei_trump_investment_deal",
+      "type": "anchored",
+      "month": 11,
+      "title_seed": "Milei and Trump sign trade and investment cooperation deal",
+      "fact": "On November 13, 2025, the governments of Argentina and the United States announced a trade and investment cooperation agreement tied to U.S. debt guarantees, aiming to reshape production-chain trade flows.",
+      "touches": [
+        "international_power",
+        "economy",
+        "fiscal_health"
+      ],
+      "dilemma": "Sign the deal to secure U.S. investment and replace IMF dependency, or hesitate due to the risk of alienating regional partners like Brazil whose manufactured exports to Argentina face displacement.",
+      "hidden_info": "The deal included implicit clauses requiring Argentina to align its foreign policy votes in multilateral organizations with U.S. interests.",
+      "figures": [
+        "sec_economy",
+        "elites",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "elites": "U.S. investment is a welcome alternative to Chinese capital, but we must protect our regional markets.",
+        "sec_economy": "This deal guarantees our fiscal path and opens the door to unprecedented capital inflows.",
+        "opposition": "We are trading our foreign policy independence for a deal that benefits U.S. corporations more than Argentine workers."
+      },
+      "preconditions": {},
+      "branchable": true
+    },
+    {
+      "id": "argentina_2025_12_venezuela_statement_split",
+      "type": "anchored",
+      "month": 12,
+      "title_seed": "Argentina-led statement on Venezuela splits Mercosur",
+      "fact": "On December 20, 2025, a group of Mercosur members led by Argentina released a joint statement calling for the restoration of democracy in Venezuela, but Brazil and Uruguay declined to sign, fearing it could be interpreted as supporting U.S. military intervention.",
+      "touches": [
+        "international_power",
+        "security",
+        "social_cohesion"
+      ],
+      "dilemma": "Push the hardline statement against Venezuela to satisfy U.S. expectations and ideological commitments, or water it down to maintain regional unity with Brazil.",
+      "hidden_info": "The U.S. had privately pressured Argentina to secure a regional mandate that could legitimize future actions against Caracas.",
+      "figures": [
+        "vice_president",
+        "press",
+        "opposition"
+      ],
+      "stakeholder_positions": {
+        "vice_president": "We cannot stay silent about the dictatorship in Venezuela; the region must take a stand.",
+        "opposition": "Milei is dragging Argentina into an imperialist adventure that could destabilize the entire continent.",
+        "press": "The bloc is fractured, and Argentina's ideological foreign policy is isolating it from its neighbors."
+      },
+      "preconditions": {},
+      "branchable": false
+    }
+  ],
+  "_note": "Argentina 2025 deck via Ollama glm-5.1 + web_search. REVIEW before use."
+}
