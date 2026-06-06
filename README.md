@@ -8,7 +8,7 @@ sdk_version: 5.50.0
 app_file: app.py
 pinned: false
 license: mit
-short_description: Govern a real 2025 world leader for 12 months — a small model narrates, judges and roleplays your cabinet.
+short_description: Govern a real 2025 world leader; a small model runs it all
 ---
 
 <div align="center">
