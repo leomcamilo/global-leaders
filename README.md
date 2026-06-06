@@ -151,7 +151,6 @@ python -m unittest discover -s tests        # 28 tests, no third-party deps
 | [`engine/llm*.py`](engine) | the model boundary (Protocol, Nemotron/OpenRouter backends, FakeLLM) |
 | [`engine/prompts/countries/`](engine/prompts/countries) | every figure's canonical persona — interests + voice |
 | [`seeds/`](seeds) | curated real-2025 event decks per country + shared global events |
-| [`scripts/`](scripts) | research/curation harness, persona generator, headless playtest, sfx generator |
 | [`app.py`](app.py) | the Situation-Room Gradio UI |
 | `GAME_DESIGN.md` · `GAME_RULES.md` · `COUNTRY_SCENARIOS.md` | design docs |
 

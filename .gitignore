@@ -17,3 +17,6 @@ build/
 # research scratch
 *.draft.json
 seeds/*.draft.json
+
+# build/curation tooling — kept local only, not needed to run the game
+scripts/
