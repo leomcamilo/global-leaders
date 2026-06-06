@@ -43,14 +43,35 @@ def load_dotenv() -> None:
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
+def _ollama_models(host: str):
+    """Models installed on a local Ollama, or None if it isn't reachable. Lets us label clearly
+    instead of silently dropping to FakeLLM when Ollama is down or the model wasn't pulled."""
+    import json
+    import urllib.request
+    try:
+        with urllib.request.urlopen(host.rstrip("/") + "/api/tags", timeout=2.0) as r:
+            return [m["name"] for m in json.loads(r.read()).get("models", [])]
+    except Exception:  # noqa: BLE001
+        return None
+
+
 def make_llm():
     load_dotenv()
-    if os.environ.get("OLLAMA_API_KEY") or os.environ.get("OLLAMA_HOST", "").startswith("http://localhost"):
+    host = os.environ.get("OLLAMA_HOST", "")
+    is_local = bool(host) and "ollama.com" not in host
+    has_cloud = bool(os.environ.get("OLLAMA_API_KEY"))
+    if has_cloud or is_local:
         try:
             from engine.llm_remote import OLLAMA_DEFAULT_MODEL, OllamaCloudLLM
-            local = os.environ.get("OLLAMA_HOST", "").startswith("http://localhost")
-            tag = f"{OLLAMA_DEFAULT_MODEL} · {'local' if local else 'Ollama Cloud'} · ≤32B"
-            return OllamaCloudLLM(fallback=FakeLLM(), verbose=False), tag
+            model = os.environ.get("OLLAMA_MODEL", OLLAMA_DEFAULT_MODEL)
+            if is_local:  # preflight: catch "Ollama not running" / "model not pulled" before falling back
+                installed = _ollama_models(host)
+                if installed is None:
+                    return FakeLLM(), f"FakeLLM — local Ollama not reachable at {host} (is it running?)"
+                if not any(m.split(":")[0] == model.split(":")[0] for m in installed):
+                    return FakeLLM(), f"FakeLLM — model '{model}' not pulled (run: ollama pull {model})"
+            tag = f"{model} · {'local Ollama 🛰️' if is_local else 'Ollama Cloud ☁️'} · ≤32B"
+            return OllamaCloudLLM(model=model, fallback=FakeLLM(), verbose=False), tag
         except Exception:  # noqa: BLE001
             pass
     return FakeLLM(), "FakeLLM (offline demo)"

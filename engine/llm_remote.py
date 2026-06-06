@@ -181,15 +181,24 @@ class RemoteChatLLM:
 # ---------------------------------------------------------------------------------
 
 class OllamaCloudLLM(RemoteChatLLM):
-    name = "ollama"
-    URL = os.environ.get("OLLAMA_HOST", "https://ollama.com").rstrip("/") + "/api/chat"
+    """Talks to Ollama's native /api/chat — both the hosted cloud (ollama.com, needs a key) and a
+    LOCAL Ollama (OLLAMA_HOST=http://localhost:11434, no key, nothing leaves the machine — the
+    'Off the Grid' setup). Local is detected by the host, and no API key is required there."""
 
-    def __init__(self, model: str = OLLAMA_DEFAULT_MODEL, api_key: str | None = None,
-                 think: bool = False, **kw):
+    name = "ollama"
+
+    def __init__(self, model: str | None = None, api_key: str | None = None,
+                 think: bool = False, host: str | None = None, **kw):
+        host = (host or os.environ.get("OLLAMA_HOST") or "https://ollama.com").rstrip("/")
+        self.host = host
+        self.url = host + "/api/chat"
+        self.is_local = "ollama.com" not in host  # localhost / 127.0.0.1 / LAN / custom => local
         api_key = api_key or os.environ.get("OLLAMA_API_KEY")
-        if not api_key:
-            raise RemoteError("Set OLLAMA_API_KEY (create one at https://ollama.com/settings/keys).")
-        super().__init__(model=model, api_key=api_key, **kw)
+        if not api_key and not self.is_local:
+            raise RemoteError(
+                "Set OLLAMA_API_KEY (https://ollama.com/settings/keys) for the cloud, "
+                "or point OLLAMA_HOST at a local Ollama (e.g. http://localhost:11434) to run off the grid.")
+        super().__init__(model=model or OLLAMA_DEFAULT_MODEL, api_key=api_key, **kw)
         self.think = think  # Nemotron is a reasoning model; off by default for clean, cheap JSON
 
     def _complete(self, system, user, temperature, max_tokens):
@@ -201,8 +210,10 @@ class OllamaCloudLLM(RemoteChatLLM):
             "think": self.think,
             "options": {"temperature": temperature, "num_predict": max_tokens},
         }
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
-        resp = self._post(self.URL, headers, payload)
+        headers = {"Content-Type": "application/json"}
+        if self.api_key:  # local Ollama ignores auth; only send it when we actually have a key
+            headers["Authorization"] = f"Bearer {self.api_key}"
+        resp = self._post(self.url, headers, payload)
         self.total_tokens += int(resp.get("prompt_eval_count", 0)) + int(resp.get("eval_count", 0))
         self.calls += 1
         return resp["message"]["content"]

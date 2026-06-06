@@ -109,22 +109,37 @@ uv pip install -r requirements.txt
 python app.py            # → http://127.0.0.1:7860
 ```
 
-### 🔌 Model backend
+### 🔌 Model backend — three ways to run
 
-Set a key in `.env` (copy `.env.example`):
+Copy `.env.example` → `.env` and pick one:
 
-```ini
-OLLAMA_API_KEY=...        # https://ollama.com/settings/keys → Nemotron on Ollama Cloud
+**🛰️ Off the grid — fully local, no key, nothing leaves your machine** *(the recommended way to see
+the real ≤32B experience — and the hackathon's "Off the Grid" quest):*
+
+```bash
+ollama pull nemotron-mini          # or any ≤32B model you have: qwen3, gemma3, llama3.2 …
 ```
-
-**🛰️ Off the grid (fully local — nothing leaves your machine):**
-
 ```ini
+# .env
 OLLAMA_HOST=http://localhost:11434
-OLLAMA_MODEL=nemotron-nano:latest   # or any ≤32B model you've pulled
+OLLAMA_MODEL=nemotron-mini         # exactly what you pulled
+```
+No API key needed. On startup the app **pre-checks** that Ollama is running and the model is pulled,
+and tells you exactly what to fix otherwise (no silent fallback). The header shows
+`🛰️ local Ollama` so you know the real model is driving the game.
+
+**☁️ Ollama Cloud** — same code, hosted Nemotron:
+
+```ini
+OLLAMA_API_KEY=...                 # https://ollama.com/settings/keys
 ```
 
-No key at all? The app falls back to the deterministic `FakeLLM` and still plays end to end.
+**🎭 No setup at all** — with no key and no local Ollama, the app runs the deterministic `FakeLLM`
+stub so the demo still plays end to end (great for a quick look; not the real model).
+
+> ⚠️ **On the hosted Hugging Face Space** there's no GPU, so the Space can't run a ≤32B model itself —
+> it uses Ollama Cloud (or the FakeLLM demo). **To experience the real local model, clone this repo and
+> run it with your own Ollama** as above. It's the same code either way.
 
 ---
 
