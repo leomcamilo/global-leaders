@@ -113,33 +113,27 @@ python app.py            # → http://127.0.0.1:7860
 
 Copy `.env.example` → `.env` and pick one:
 
-**🛰️ Off the grid — fully local, no key, nothing leaves your machine** *(the recommended way to see
-the real ≤32B experience — and the hackathon's "Off the Grid" quest):*
+**🛰️ Off the grid — the real way to play: local NVIDIA Nemotron, no key, nothing leaves your machine**
+*(this is the hackathon's "Off the Grid" quest — a ≤32B model running entirely on your own hardware):*
 
 ```bash
-ollama pull nemotron-mini          # or any ≤32B model you have: qwen3, gemma3, llama3.2 …
+ollama pull nemotron-3-nano:30b    # the 30B NVIDIA Nemotron this game is tuned for
 ```
 ```ini
 # .env
 OLLAMA_HOST=http://localhost:11434
-OLLAMA_MODEL=nemotron-mini         # exactly what you pulled
+OLLAMA_MODEL=nemotron-3-nano:30b   # (any ≤32B model works too: qwen3, gemma3 …)
 ```
-No API key needed. On startup the app **pre-checks** that Ollama is running and the model is pulled,
-and tells you exactly what to fix otherwise (no silent fallback). The header shows
-`🛰️ local Ollama` so you know the real model is driving the game.
+No API key. On startup the app **pre-checks** that Ollama is running and the model is pulled, and tells
+you exactly what to fix otherwise (no silent fallback). The header shows `🛰️ local Ollama` so you know
+the real model is driving the game.
 
-**☁️ Ollama Cloud** — same code, hosted Nemotron:
+**🎭 No setup at all** — with no local Ollama, the app runs the deterministic `FakeLLM` stub so the demo
+still plays end to end (great for a quick look; not the real model).
 
-```ini
-OLLAMA_API_KEY=...                 # https://ollama.com/settings/keys
-```
-
-**🎭 No setup at all** — with no key and no local Ollama, the app runs the deterministic `FakeLLM`
-stub so the demo still plays end to end (great for a quick look; not the real model).
-
-> ⚠️ **On the hosted Hugging Face Space** there's no GPU, so the Space can't run a ≤32B model itself —
-> it uses Ollama Cloud (or the FakeLLM demo). **To experience the real local model, clone this repo and
-> run it with your own Ollama** as above. It's the same code either way.
+> ⚠️ **The hosted Hugging Face Space has no GPU**, so it runs the **FakeLLM demo** (it always plays).
+> The real game — **NVIDIA Nemotron 30B running locally on Ollama** — is one clone away: pull the model
+> and run the steps above. Same code, your own silicon, off the grid.
 
 ---
 
