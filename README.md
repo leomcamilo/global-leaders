@@ -145,9 +145,12 @@ the real model is driving the game.
 **🎭 No setup at all** — with no local Ollama, the app runs the deterministic `FakeLLM` stub so the demo
 still plays end to end (great for a quick look; not the real model).
 
-> ▶️ **The hosted Hugging Face Space runs the real game** — NVIDIA Nemotron 30B (via Ollama Cloud) — so
-> anyone who clicks sees the model narrate, judge and roleplay live. Prefer to play **off the grid**?
-> Clone the repo and point it at your own local Ollama (no key, nothing leaves your machine) as above.
+> ▶️ **The hosted Hugging Face Space runs the real game** — NVIDIA Nemotron 30B-A3B on a **dedicated
+> L40S GPU we self-host on [Modal](https://modal.com)** ([`modal_ollama.py`](modal_ollama.py): the
+> stock Ollama image + the model in a persistent Volume, per-second billing, scale-to-zero). The Space
+> itself stays on free CPU hardware and just points `OLLAMA_HOST` at that endpoint — the engine can't
+> tell it apart from a local Ollama. Prefer to play **off the grid**? Clone the repo and point it at
+> your own local Ollama (no key, nothing leaves your machine) as above.
 
 ---
 

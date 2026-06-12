@@ -59,18 +59,24 @@ def make_llm():
     load_dotenv()
     host = os.environ.get("OLLAMA_HOST", "")
     is_local = bool(host) and "ollama.com" not in host
+    # Our Modal endpoint (modal_ollama.py) scales to zero and wakes on demand, so the
+    # quick preflight below would flunk it while asleep — skip it and let the backend's
+    # retries absorb the one slow wake-up call.
+    is_modal = "modal.run" in host
     has_cloud = bool(os.environ.get("OLLAMA_API_KEY"))
     if has_cloud or is_local:
         try:
             from engine.llm_remote import OLLAMA_DEFAULT_MODEL, OllamaCloudLLM
             model = os.environ.get("OLLAMA_MODEL", OLLAMA_DEFAULT_MODEL)
-            if is_local:  # preflight: catch "Ollama not running" / "model not pulled" before falling back
+            if is_local and not is_modal:  # preflight: catch "Ollama not running" / "model not pulled"
                 installed = _ollama_models(host)
                 if installed is None:
                     return FakeLLM(), f"FakeLLM — local Ollama not reachable at {host} (is it running?)"
                 if not any(m.split(":")[0] == model.split(":")[0] for m in installed):
                     return FakeLLM(), f"FakeLLM — model '{model}' not pulled (run: ollama pull {model})"
-            tag = f"{model} · {'local Ollama 🛰️' if is_local else 'Ollama Cloud ☁️'} · ≤32B"
+            where = ("dedicated GPU · Modal ⚡" if is_modal
+                     else "local Ollama 🛰️" if is_local else "Ollama Cloud ☁️")
+            tag = f"{model} · {where} · ≤32B"
             return OllamaCloudLLM(model=model, fallback=FakeLLM(), verbose=False), tag
         except Exception:  # noqa: BLE001
             pass
