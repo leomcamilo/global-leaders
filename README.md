@@ -4,11 +4,25 @@ emoji: 🌍
 colorFrom: green
 colorTo: gray
 sdk: gradio
-sdk_version: 5.50.0
+sdk_version: 6.17.3
 app_file: app.py
 pinned: false
 license: mit
 short_description: Govern a real 2025 world leader; a small model runs it all
+tags:
+  - build-small-hackathon
+  - thousand-token-wood
+  - track:wood
+  - nemotron
+  - nvidia
+  - sponsor:nvidia
+  - off-brand
+  - off-the-grid
+  - achievement:offbrand
+  - achievement:offgrid
+  - best-agent
+  - best-demo
+  - community-choice
 ---
 
 <div align="center">
@@ -24,7 +38,7 @@ short_description: Govern a real 2025 world leader; a small model runs it all
 
 ![hackathon](https://img.shields.io/badge/Build_Small-Thousand_Token_Wood-33ff88?style=for-the-badge)
 ![model](https://img.shields.io/badge/NVIDIA_Nemotron-≤32B-76b900?style=for-the-badge&logo=nvidia&logoColor=white)
-![gradio](https://img.shields.io/badge/Gradio-5.x-ffb000?style=for-the-badge&logo=gradio&logoColor=black)
+![gradio](https://img.shields.io/badge/Gradio-6.x-ffb000?style=for-the-badge&logo=gradio&logoColor=black)
 ![local](https://img.shields.io/badge/Runs-100%25_Local_capable-7fd1ff?style=for-the-badge)
 
 </div>

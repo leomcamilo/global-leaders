@@ -478,7 +478,7 @@ COUNTRY_CHOICES = [
 _, BACKEND_NAME = make_llm()
 
 
-with gr.Blocks(css=CSS, title="Global Leaders", theme=gr.themes.Base()) as demo:
+with gr.Blocks(title="Global Leaders") as demo:
     state_box = gr.State(None)
     sfx_audio = gr.Audio(visible=True, autoplay=True, show_label=False, elem_id="sfx",
                          interactive=False)
@@ -536,10 +536,10 @@ with gr.Blocks(css=CSS, title="Global Leaders", theme=gr.themes.Base()) as demo:
                 result_html = gr.HTML(visible=False)
                 continue_btn = gr.Button("Continue →", visible=False)
                 share_box = gr.Textbox(label="📋 Share your term (copy this)", lines=3, visible=False,
-                                       interactive=True, show_copy_button=True)
+                                       interactive=True, buttons=["copy"])
                 with gr.Group(visible=False) as lunch_panel:
                     lunch_header_html = gr.HTML()
-                    lunch_chat = gr.Chatbot(label="The lunch", type="messages", height=300, show_label=False)
+                    lunch_chat = gr.Chatbot(label="The lunch", height=300, show_label=False)
                     lunch_q = gr.Textbox(label="Ask them", lines=1,
                                          placeholder="e.g. What would it take for you to back me on this?")
                     with gr.Row():
@@ -568,4 +568,5 @@ with gr.Blocks(css=CSS, title="Global Leaders", theme=gr.themes.Base()) as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(allowed_paths=[os.path.join(BASE, "assets")])
+    demo.launch(allowed_paths=[os.path.join(BASE, "assets")],
+                css=CSS, theme=gr.themes.Base())
