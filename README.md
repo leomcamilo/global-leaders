@@ -16,6 +16,7 @@ tags:
   - nemotron
   - nvidia
   - sponsor:nvidia
+  - sponsor:modal
   - off-brand
   - off-the-grid
   - achievement:offbrand
