@@ -475,6 +475,31 @@ body { margin:0!important; }
 .cabbtn button:hover { border-color:var(--amb)!important; color:#fff!important; background:#15241a!important;
   box-shadow:0 0 8px rgba(255,176,0,.25); transform:translateX(2px); }
 @media (max-width:760px){ .gradio-container .gap > div { flex-direction:column!important; } }
+/* Safety net: if the visitor's browser is in LIGHT mode, Gradio's native widgets
+   (the move input, the leader picker, the dropdown, the lunch chat) would render
+   DARK text on our always-dark panels and vanish. Force their colours light here,
+   regardless of mode — this backs up the force-dark JS in case JS is blocked. */
+.gradio-container, gradio-app {
+  --body-text-color:#dfeee6!important; --body-text-color-subdued:#9bc4ad!important;
+  --input-text-color:#eafff4!important; --input-placeholder-color:#5f7d6b!important;
+  --block-title-text-color:#bfe!important; --block-label-text-color:#9bc4ad!important;
+  --button-secondary-text-color:#dfeee6!important; --checkbox-label-text-color:#dfeee6!important; }
+.gradio-container textarea, .gradio-container input, .gradio-container select { color:#eafff4!important; }
+.gradio-container label, .gradio-container fieldset span, .gradio-container .prose,
+.gradio-container .message, .gradio-container .message-row { color:#dfeee6!important; }
+.gradio-container input::placeholder, .gradio-container textarea::placeholder { color:#5f7d6b!important; }
+"""
+
+# Force Gradio's dark theme so its native widgets use light text on our dark panels,
+# no matter the visitor's browser light/dark preference (one-time redirect on load).
+FORCE_DARK_JS = """
+() => {
+  const u = new URL(window.location);
+  if (u.searchParams.get('__theme') !== 'dark') {
+    u.searchParams.set('__theme', 'dark');
+    window.location.replace(u.href);
+  }
+}
 """
 
 COUNTRY_CHOICES = [
@@ -575,4 +600,4 @@ with gr.Blocks(title="Global Leaders") as demo:
 
 if __name__ == "__main__":
     demo.launch(allowed_paths=[os.path.join(BASE, "assets")],
-                css=CSS, theme=gr.themes.Base())
+                css=CSS, theme=gr.themes.Base(), js=FORCE_DARK_JS)
