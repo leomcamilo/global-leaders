@@ -9,7 +9,11 @@ the slow ones are generators that first yield a "deliberating" state, then the r
 
 from __future__ import annotations
 
+import json
 import os
+import threading
+import time
+import urllib.request
 
 import gradio as gr
 
@@ -77,7 +81,10 @@ def make_llm():
             where = ("dedicated GPU · Modal ⚡" if is_modal
                      else "local Ollama 🛰️" if is_local else "Ollama Cloud ☁️")
             tag = f"{model} · {where} · ≤32B"
-            return OllamaCloudLLM(model=model, fallback=FakeLLM(), verbose=False), tag
+            # Modal cold boot can take ~80s; give one call enough room to ride it out
+            # (the warm-up usually beats it) before any retry/fallback kicks in.
+            timeout = 180 if is_modal else 120
+            return OllamaCloudLLM(model=model, fallback=FakeLLM(), verbose=False, timeout=timeout), tag
         except Exception:  # noqa: BLE001
             pass
     return FakeLLM(), "FakeLLM (offline demo)"
@@ -333,9 +340,43 @@ def render_screen(sess: dict, screen: str, busy: str | None = None, pending_q: s
     return u
 
 
+# --- backend warm-up ------------------------------------------------------------
+
+_last_warm = [0.0]  # monotonic timestamp of the last warm-up nudge (debounce)
+
+
+def warm_backend():
+    """Fire-and-forget: wake the scale-to-zero Modal GPU endpoint and preload the
+    model into VRAM, so it's hot by the time the player's first move is judged.
+    A cold boot can take ~80s; firing this on page load and on BEGIN buys that time
+    while the player reads the briefing and picks a nation. No-op unless we're
+    pointed at the remote Modal endpoint. Debounced to at most once per 60s."""
+    host = os.environ.get("OLLAMA_HOST", "")
+    if "modal.run" not in host:  # only the scale-to-zero endpoint needs waking
+        return
+    now = time.monotonic()
+    if now - _last_warm[0] < 60:
+        return
+    _last_warm[0] = now
+    model = os.environ.get("OLLAMA_MODEL", "nemotron-3-nano:30b")
+
+    def _go():
+        try:
+            req = urllib.request.Request(
+                host.rstrip("/") + "/api/generate",
+                data=json.dumps({"model": model, "keep_alive": -1}).encode("utf-8"),
+                headers={"Content-Type": "application/json"}, method="POST")
+            urllib.request.urlopen(req, timeout=180)  # holds during the cold boot; result ignored
+        except Exception:  # noqa: BLE001 — best-effort; the real call will retry if needed
+            pass
+
+    threading.Thread(target=_go, daemon=True).start()
+
+
 # --- handlers (slow ones are generators: yield busy -> yield result) ------------
 
 def on_begin(sess):
+    warm_backend()  # nudge the GPU awake while the player reads the setup screen
     return {state_box: None, **render_screen(None, "setup")}
 
 
@@ -480,10 +521,23 @@ body { margin:0!important; }
    DARK text on our always-dark panels and vanish. Force their colours light here,
    regardless of mode — this backs up the force-dark JS in case JS is blocked. */
 .gradio-container, gradio-app {
-  --body-text-color:#dfeee6!important; --body-text-color-subdued:#9bc4ad!important;
-  --input-text-color:#eafff4!important; --input-placeholder-color:#5f7d6b!important;
-  --block-title-text-color:#bfe!important; --block-label-text-color:#9bc4ad!important;
-  --button-secondary-text-color:#dfeee6!important; --checkbox-label-text-color:#dfeee6!important; }
+  /* text */
+  --body-text-color:#dfeee6!important; --body-text-color-subdued:#bcd9c9!important;
+  --input-text-color:#eafff4!important; --input-placeholder-color:#6f8d7b!important;
+  --block-title-text-color:#cfe!important; --block-label-text-color:#cfe!important;
+  --button-secondary-text-color:#eafff4!important; --checkbox-label-text-color:#eafff4!important;
+  /* backgrounds — force dark in BOTH modes so native widgets (the options Radio,
+     the move box, the Room buttons, labels) stop rendering light-on-light */
+  --background-fill-primary:#070b09!important; --background-fill-secondary:#0a110c!important;
+  --block-background-fill:#0d140f!important; --panel-background-fill:#0d140f!important;
+  --block-label-background-fill:#0a110c!important;
+  --input-background-fill:#0a110c!important; --input-background-fill-focus:#0e1812!important;
+  --button-secondary-background-fill:#0e1812!important; --button-secondary-background-fill-hover:#15241a!important;
+  --checkbox-background-color:#0a110c!important; --checkbox-background-color-selected:#15241a!important;
+  --checkbox-label-background-fill:#0d140f!important; --checkbox-label-background-fill-hover:#15241a!important;
+  --checkbox-label-background-fill-selected:#15241a!important;
+  /* borders */
+  --border-color-primary:#1d2a20!important; --border-color-secondary:#1d2a20!important; }
 .gradio-container textarea, .gradio-container input[type="text"], .gradio-container input:not([type]),
 .gradio-container select { color:#eafff4!important; background:#0a110c!important; }
 .gradio-container label, .gradio-container fieldset span, .gradio-container .prose,
@@ -597,6 +651,7 @@ with gr.Blocks(title="Global Leaders") as demo:
            freetext, decide_btn, result_html, continue_btn, share_box, lunch_panel,
            lunch_header_html, lunch_chat, lunch_q, lunch_send, lunch_back, sfx_audio] + cab_btns
 
+    demo.load(warm_backend)  # start waking the GPU the moment the page opens
     begin_btn.click(on_begin, [state_box], OUT)
     start_btn.click(on_start, [country_dd, state_box], OUT)
     decide_btn.click(on_decide, [options_radio, freetext, state_box], OUT)
