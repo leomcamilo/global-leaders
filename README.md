@@ -44,6 +44,14 @@ tags:
 
 </div>
 
+## 🏆 Build Small Hackathon — submission
+
+- **Track:** Adventure in Thousand Token Wood
+- **🎬 Demo video:** [73s walkthrough on YouTube](https://youtu.be/) *(uploading)*
+- **▶️ Play it live:** https://huggingface.co/spaces/build-small-hackathon/global-leaders
+- **📣 Social post:** [on LinkedIn](https://www.linkedin.com)
+- **🧠 Model:** NVIDIA Nemotron 30B-A3B (≤32B, 3B active) — self-hosted on Modal (L40S), or fully local via Ollama
+
 ---
 
 ```
