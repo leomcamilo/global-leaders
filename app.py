@@ -484,10 +484,20 @@ body { margin:0!important; }
   --input-text-color:#eafff4!important; --input-placeholder-color:#5f7d6b!important;
   --block-title-text-color:#bfe!important; --block-label-text-color:#9bc4ad!important;
   --button-secondary-text-color:#dfeee6!important; --checkbox-label-text-color:#dfeee6!important; }
-.gradio-container textarea, .gradio-container input, .gradio-container select { color:#eafff4!important; }
+.gradio-container textarea, .gradio-container input[type="text"], .gradio-container input:not([type]),
+.gradio-container select { color:#eafff4!important; background:#0a110c!important; }
 .gradio-container label, .gradio-container fieldset span, .gradio-container .prose,
 .gradio-container .message, .gradio-container .message-row { color:#dfeee6!important; }
 .gradio-container input::placeholder, .gradio-container textarea::placeholder { color:#5f7d6b!important; }
+/* Country dropdown: lock dark bg + light text on the box AND the options popup, in
+   BOTH light & dark modes. The popup can render in a portal OUTSIDE .gradio-container,
+   so these selectors are deliberately NOT scoped to it. */
+ul.options { background:#0a110c!important; border:1px solid #1d2a20!important; }
+ul.options li, [data-testid="dropdown-option"] { background:#0a110c!important; color:#eafff4!important; }
+ul.options li .item-name, [data-testid="dropdown-option"] .item-name { color:#eafff4!important; }
+ul.options li.active, ul.options li[aria-selected="true"], ul.options li:hover,
+[data-testid="dropdown-option"].active, [data-testid="dropdown-option"]:hover {
+  background:#15241a!important; color:#fff!important; }
 """
 
 # Force Gradio's dark theme so its native widgets use light text on our dark panels,
